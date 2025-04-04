@@ -21,8 +21,9 @@ website:
     left: |
       <span class="faux-block" style="position: fixed; bottom: 0; left: 10px;">&#169; 2025 Augusto Lima</span>
     right: |
-      <span class="faux-block"><img src="img/uva.jpg" alt="Right Logo" style="height: 40px;">
-      <img src="img/uib.png" alt="Left Logo" style="height: 40px;"></span>
+      <span class="faux-block"><img src="img/uva.jpg" alt="left Logo" style="height: 40px;">
+      <img src="img/uib.png" alt="center Logo" style="height: 40px;"></span>
+      <img src="img/trond.jpg" alt="right Logo" style="height: 40px;"></span>
 
 
 project:

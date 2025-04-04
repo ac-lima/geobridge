@@ -23,7 +23,7 @@ Spatio-temporal analyses of landscape dynamics across the biosphere, geosphere, 
 
 ```{=html}
 <div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://forms.office.com/e/wqac9yxAMV" role="button" target="_blank" style="padding: 15px 30px;">Want to be a speaker? Send your presentation to us!</a>
+<a class="btn btn-primary" href="https://forms.office.com/e/wqac9yxAMV" role="button" target="_blank" style="padding: 15px 30px;">Want to be a speaker? Sign up here!</a>
 </div>
 ```
 

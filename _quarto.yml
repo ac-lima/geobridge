@@ -38,7 +38,7 @@ execute:
 
 format:
   html:
-    fontsize: 1.5em
+    fontsize: 1.3em
     theme: 
       - pulse
       - styles.scss

@@ -23,7 +23,7 @@ Spatio-temporal analyses of landscape dynamics across the biosphere, geosphere, 
 
 ```{=html}
 <div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">Send your presentation idea to us!</a>
+<a class="btn btn-primary" href="https://forms.office.com/e/wqac9yxAMV" role="button" target="_blank" style="padding: 15px 30px;">Send your presentation idea to us!</a>
 </div>
 ```
 
@@ -38,7 +38,7 @@ Spatio-temporal analyses of landscape dynamics across the biosphere, geosphere, 
 
 ```{=html}
 <div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">Check our guidelines for an interdisciplinary presentation!</a>
+<a class="btn btn-primary" href="https://universityofbergen-my.sharepoint.com/:p:/g/personal/augusto_naschimento_uib_no/EYWphSekdnNPiXNOFh5HByMB5cG2z6YeBFUE2r39Gg9dPQ?e=Mcfr8I" role="button" target="_blank" style="padding: 15px 30px;">Check our guidelines for an interdisciplinary presentation!</a>
 </div>
 ```
 

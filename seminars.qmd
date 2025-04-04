@@ -5,7 +5,6 @@ format:
     smooth-scroll: true
 ---
 
-
 <div style="text-align: center;">
   <img src="img/firstimg.png" alt="Seminar series visual" style="max-width: 100%; height: auto; object-fit: contain;" />
   <p style="margin-top: 1rem;">

@@ -15,13 +15,6 @@ website:
       - href: seminars.qmd
         text: Monthly Seminar Series
     
-    # your social media handles
-    right:
-      - icon: envelope
-        aria-label: email
-        href: "mailto:mail.marvinschmitt@gmail.com"  
-  
-  
 
 # Don't touch unless you know what you are doing :) ------------
   page-footer: 

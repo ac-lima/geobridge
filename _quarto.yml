@@ -1,0 +1,57 @@
+# This file controls the settings for your Quarto template
+
+# website settings
+website:
+  title: "UiB Collaborative Platform for GIS/RS"                               
+  image: img/my_image.jpg
+  search: false
+  
+  # start of the navigation bar at the top of the website
+  navbar:
+    pinned: true
+    
+    # your sub-pages
+    left:
+      - href: seminars.qmd
+        text: Monthly Seminar Series
+    
+    # your social media handles
+    right:
+      - icon: envelope
+        aria-label: email
+        href: "mailto:mail.marvinschmitt@gmail.com"  
+  
+  
+
+# Don't touch unless you know what you are doing :) ------------
+  page-footer: 
+    left: |
+      <span class="faux-block" style="position: fixed; bottom: 0; left: 10px;">&#169; 2025 Augusto Lima</span>
+    right: |
+      <span class="faux-block"><img src="img/uva.jpg" alt="Right Logo" style="height: 60px;">
+      <img src="img/uib.png" alt="Left Logo" style="height: 60px;"></span>
+
+project:
+  type: website
+  output-dir: docs
+
+  preview:
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
+
+format:
+  html:
+    fontsize: 1.5em
+    theme: 
+      - pulse
+      - styles.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true

@@ -1,0 +1,44 @@
+---
+format:
+  html:
+    code-fold: true
+    smooth-scroll: true
+---
+
+<div style="text-align: center;">
+  <img src="img/firstimg.png" alt="Seminar series visual" style="max-width: 100%; height: auto; object-fit: contain;" />
+  <p style="margin-top: 1rem;">
+    <a href="#" style="text-decoration: none; font-size: 1.2em;">
+      A unique opportunity to engage with researchers and students from interdisciplinary backgrounds.
+    </a>
+  </p>
+</div>
+
+Spatio-temporal analyses of landscape dynamics across the biosphere, geosphere, and cryosphere are crucial in tackling today’s global environmental challenges. From land use and cover changes to glacier retreat and vegetation shifts, Geographic Information Systems (GIS) and Remote Sensing (RS) offer essential tools for research and real-world problem-solving.
+
+- 🖥️ **Hybrid Format**: [Join our Zoom Meeting Room!](https://uib.zoom.us/j/69808241977?pwd=2cIi1yJezIiwsi4oxr6NrFfcKP4K0J.1) 
+- 📍 **University of Bergen (UiB)**: In person meetings.
+- 📅 **May 2025 to June 2026**: [Have a look on our Sessions Calendar](https://universityofbergen-my.sharepoint.com/:x:/g/personal/augusto_naschimento_uib_no/EXfj5JpJs6dAgqwwaEASl3wBWXZxwz7GSL3uJpboUOK9lA?e=8wYZKd).
+- 🌍 **Global Atendees and Audience**: Let's connect with the world...  
+
+```{=html}
+<div  style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">Send your presentation idea to us!</a>
+</div>
+```
+
+<div style="text-align: center;">
+  <img src="img/img4.png" alt="Be Inspired" style="max-width: 100%; height: auto; object-fit: contain;" />
+  <p style="margin-top: 1rem;">
+    <a href="#" style="text-decoration: none; font-size: 1.2em;">
+      The seminars will be open to all and we request presenters to tailor their content for an interdisciplinary audience.
+    </a>
+  </p>
+</div>
+
+```{=html}
+<div  style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">Check our guidelines for an interdisciplinary presentation!</a>
+</div>
+```
+

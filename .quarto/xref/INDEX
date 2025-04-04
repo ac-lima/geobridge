@@ -1,0 +1,14 @@
+{
+  "index.qmd": {
+    "index.html": "8ce99805"
+  },
+  "seminars/index.qmd": {
+    "index.html": "af435f95"
+  },
+  "seminars.qmd": {
+    "seminars.html": "35fd2146"
+  },
+  "dummy.qmd": {
+    "dummy.html": "8d3b7f44"
+  }
+}

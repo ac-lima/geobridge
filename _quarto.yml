@@ -24,6 +24,7 @@ website:
       <span class="faux-block"><img src="img/uva.jpg" alt="Right Logo" style="height: 60px;">
       <img src="img/uib.png" alt="Left Logo" style="height: 60px;"></span>
 
+
 project:
   type: website
   output-dir: docs

@@ -1,6 +1,5 @@
 # This file controls the settings for your Quarto template
 
-
 # website settings
 website:
   title: "UiB Collaborative Platform for GIS/RS"                               

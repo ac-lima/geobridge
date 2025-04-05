@@ -1,0 +1,44 @@
+---
+format:
+  html:
+    code-fold: true
+    smooth-scroll: true
+---
+
+<div style="text-align: center;">
+  <img src="img/uavbanner.png" alt="UAV Workshop Banner" style="max-width: 100%; height: auto; object-fit: contain;" />
+  <p style="margin-top: 1rem;">
+    <a href="#" style="text-decoration: none; font-size: 1.2em;">
+      A hands-on, immersive experience combining UAV fieldwork and geospatial analysis.
+    </a>
+  </p>
+</div>
+
+The **2-Day UAV and Remote Sensing Workshop** offers an engaging mix of field missions, data processing, and applied GIS/RS learning. Join researchers, students, and professors for a practical and theoretical deep dive into modern UAV-based landscape analysis.
+
+- 🚁 **On-site UAV Flights & Data Collection**: Learn mission planning, data capture, and safety.
+- 🖥️ **Evening Lab Sessions**: Turn raw drone imagery into real geospatial products.
+- 🗺️ **Integrated Theory & Application**: Taught by specialists in UAVs and environmental RS.
+
+```{=html}
+<div style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="https://forms.office.com/e/rf88TNBL4x?origin=lprLink" role="button" target="_blank" style="padding: 15px 30px;">Learn more about our program</a>
+</div>
+
+<div style="text-align: center;">
+  <img src="img/uavbanner2.png" alt="UAV Workshop Banner" style="max-width: 100%; height: auto; object-fit: contain;" />
+  <p style="margin-top: 1rem;">
+    <a href="#" style="text-decoration: none; font-size: 1.2em;">
+      Enjoy a stunning mountain landscape ideal for UAV-based environmental monitoring.
+    </a>
+  </p>
+</div>
+
+- 💰 **All costs covered**: Transportation, accommodation, and meals are fully funded for selected participants.  
+- 🎒**What to bring**: A personal laptop is required. Also bring appropriate field gear (e.g. hiking boots, waterproof layers).
+- 🕐 **Application Deadline**: 9 May 2025  
+
+```{=html}
+<div style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="https://forms.office.com/e/rf88TNBL4x?origin=lprLink" role="button" target="_blank" style="padding: 15px 30px;">Apply here! See you soon.</a>
+</div>

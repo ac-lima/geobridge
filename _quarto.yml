@@ -14,6 +14,8 @@ website:
     left:
       - href: seminars.qmd
         text: Monthly Seminar Series
+      - href: uavworkshop.qmd
+        text: UaV and RS Workshop
     
 
 # Don't touch unless you know what you are doing :) ------------
@@ -25,6 +27,7 @@ website:
         <img src="img/uva.jpg" alt="left Logo" style="height: 40px; vertical-align: middle;">
         <img src="img/uib.png" alt="center Logo" style="height: 40px; vertical-align: middle;">
         <img src="img/trond.jpg" alt="right Logo" style="height: 40px; vertical-align: middle;">
+        <img src="img/bjerknes.webp" alt="last Logo" style="height: 40px; vertical-align: middle;">
       </span>
 
 project:

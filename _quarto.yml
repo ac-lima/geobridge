@@ -22,7 +22,7 @@ website:
 # Don't touch unless you know what you are doing :) ------------
   page-footer: 
     left: |
-      <span class="faux-block" style="position: fixed; bottom: 0; left: 10px;">&#169; 2025 Augusto Lima</span>
+      <div id="fixed-copyright">© 2025 Augusto Lima</div>
     right: |
       <span class="faux-block">
         <img src="img/uva.jpg" alt="left Logo" style="height: 40px; vertical-align: middle;">
@@ -39,9 +39,6 @@ project:
     browser: true
     watch-inputs: true
     navigate: true
-
-execute:
-  freeze: true
 
 format:
   html:

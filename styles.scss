@@ -125,3 +125,16 @@ $btn-code-copy-color-active: $orange !default;
     font-size: 20px; /* Smaller font size */
     padding: 1px 2px; /* Reducing padding for a tighter header */
 }
+
+#fixed-copyright {
+    font-size: 0.85em;
+    color: $gray-600;
+    font-family: sans-serif;
+    opacity: 0.8;
+  }
+
+  .nav-footer-left {
+    display: flex;
+    align-items: flex-end;
+    min-height: 60px; /* adjust this if needed */
+  }

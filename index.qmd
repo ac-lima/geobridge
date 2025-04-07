@@ -25,7 +25,12 @@ class: home-page
   </style>
 </head>
 
-# A UiB collaborative platform for GIS/RS methods
+<div style="text-align: center;">
+  <img src="img/PROJECTLOGO.png" alt="Project Logo" style="max-width: 100%; height: auto; object-fit: contain;" />
+  <p style="margin-top: 1rem; font-size: 1.2em; color: inherit;">
+    A UiB collaborative platform for GIS/RS methods
+  </p>
+</div>
 
 Join a growing community of researchers and students from diverse academic backgrounds united by a shared interest in Geographic Information Systems (GIS) and Remote Sensing (RS).
 

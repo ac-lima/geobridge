@@ -7,10 +7,8 @@ format:
 
 <div style="text-align: center;">
   <img src="img/firstimg.png" alt="Seminar series visual" style="max-width: 100%; height: auto; object-fit: contain;" />
-  <p style="margin-top: 1rem;">
-    <a href="#" style="text-decoration: none; font-size: 1.2em;">
+   <p style="margin-top: 1rem; font-size: 1.2em; color: inherit;">
       A unique opportunity to engage with researchers and students from interdisciplinary backgrounds.
-    </a>
   </p>
 </div>
 
@@ -29,10 +27,8 @@ Spatio-temporal analyses of landscape dynamics across the biosphere, geosphere, 
 
 <div style="text-align: center;">
   <img src="img/img4.png" alt="Be Inspired" style="max-width: 100%; height: auto; object-fit: contain;" />
-  <p style="margin-top: 1rem;">
-    <a href="#" style="text-decoration: none; font-size: 1.2em;">
+   <p style="margin-top: 1rem; font-size: 1.2em; color: inherit;">
       The seminars will be open to all and we request presenters to tailor their content for an interdisciplinary audience.
-    </a>
   </p>
 </div>
 

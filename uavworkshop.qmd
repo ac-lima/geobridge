@@ -8,10 +8,8 @@ format:
 
 <div style="text-align: center;">
   <img src="img/uavbanner.png" alt="UAV Workshop Banner" style="max-width: 100%; height: auto; object-fit: contain;" />
-  <p style="margin-top: 1rem;">
-    <a href="#" style="text-decoration: none; font-size: 1.2em;">
+   <p style="margin-top: 1rem; font-size: 1.2em; color: inherit;">
       A hands-on, immersive experience combining UAV fieldwork and geospatial analysis.
-    </a>
   </p>
 </div>
 
@@ -28,10 +26,8 @@ The **2-Day UAV and Remote Sensing Workshop** offers an engaging mix of field mi
 
 <div style="text-align: center;">
   <img src="img/uavbanner2.png" alt="UAV Workshop Banner" style="max-width: 100%; height: auto; object-fit: contain;" />
-  <p style="margin-top: 1rem;">
-    <a href="#" style="text-decoration: none; font-size: 1.2em;">
-      Enjoy a stunning mountain landscape ideal for UAV-based environmental monitoring.
-    </a>
+  <p style="margin-top: 1rem; font-size: 1.2em; color: inherit;">
+      Set in a stunning mountain landscape ideal for UAV-based environmental monitoring — only 8 spots available!
   </p>
 </div>
 

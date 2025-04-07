@@ -33,12 +33,8 @@ class: home-page
   </p>
 </div>
 
-Join a growing community of researchers and students from diverse academic backgrounds united by a shared interest in Geographic Information Systems (GIS) and Remote Sensing (RS).
+Join a growing community of researchers and students from diverse academic backgrounds united by a shared interest in Geographic Information Systems (GIS) and Remote Sensing (RS). Through seminars, workshops, and conferences, participants have the opportunity to present their work, engage in meaningful discussions, and explore innovative applications of GIS and RS in tackling today’s environmental challenges.
 
-Through seminars, workshops, and conferences, participants have the opportunity to present their work, engage in meaningful discussions, and explore innovative applications of GIS and RS in tackling today’s environmental challenges.
-
-Our network currently brings together 55 active members from the University of Bergen (UiB), spanning the Departments of Earth Science, Biology, Geography, Physics, and Archaeology—representing three faculties.
-
-We are also proud to have established a strong collaborative partnership with the Theoretical and Computational Ecology group at the University of Amsterdam (UvA), expanding our reach and impact across institutions.
+Our network currently brings together 55 active members from the University of Bergen (UiB), spanning the Departments of Earth Science, Biology, Geography, Physics, and Archaeology—representing three faculties. We are also proud to have established a strong collaborative partnership with the Theoretical and Computational Ecology group at the University of Amsterdam (UvA), expanding our reach and impact across institutions.
 
 Please feel free to [contact me](mailto:augusto.naschimento@uib.no) if you have any questions or would like to discuss potential participation and projects.

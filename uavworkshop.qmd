@@ -20,7 +20,7 @@ The **2-Day UAV and Remote Sensing Workshop** offers an engaging mix of field mi
 
 ```{=html}
 <div style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://forms.office.com/e/rf88TNBL4x?origin=lprLink" role="button" target="_blank" style="padding: 15px 30px;">Learn more about our program</a>
+<a class="btn btn-primary" href="https://universityofbergen-my.sharepoint.com/:w:/g/personal/augusto_naschimento_uib_no/ETD_4e4jF-BEu5_1W0Ko50wBoKnVWTsK0FMe_Yolk5FJ6w?e=cVGPSb" role="button" target="_blank" style="padding: 15px 30px;">Learn more about our program</a>
 </div>
 
 <div style="text-align: center;">
@@ -32,9 +32,9 @@ The **2-Day UAV and Remote Sensing Workshop** offers an engaging mix of field mi
 
 - 💰 **All costs covered**: Transportation, accommodation, and meals are fully funded for selected participants.  
 - 🎒**What to bring**: A personal laptop is required. Also bring appropriate field gear (e.g. hiking boots, waterproof layers).
-- 🕐 **Application Deadline**: 9 May 2025  
+- 🕐 **Application Deadline**: 9 May 2025 at 12.00 pm
 
 ```{=html}
 <div style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://forms.office.com/e/rf88TNBL4x?origin=lprLink" role="button" target="_blank" style="padding: 15px 30px;">Apply here! See you soon.</a>
+<a class="btn btn-primary" href="https://forms.office.com/e/28iUi772Mu" role="button" target="_blank" style="padding: 15px 30px;">Apply here! See you soon.</a>
 </div>

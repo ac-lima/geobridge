@@ -3,7 +3,6 @@ format: html
 class: home-page
 ---
 
-
 <head>
   <style>
     body {

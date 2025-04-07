@@ -15,7 +15,7 @@ website:
       - href: seminars.qmd
         text: Monthly Seminar Series
       - href: uavworkshop.qmd
-        text: UaV and RS Workshop
+        text: UAV and RS Workshop
     
 
 # Don't touch unless you know what you are doing :) ------------

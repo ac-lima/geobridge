@@ -5,7 +5,6 @@ format:
     smooth-scroll: true
 ---
 
-
 <div style="text-align: center;">
   <img src="img/uavbanner.png" alt="UAV Workshop Banner" style="max-width: 100%; height: auto; object-fit: contain;" />
    <p style="margin-top: 1rem; font-size: 1.2em; color: inherit;">

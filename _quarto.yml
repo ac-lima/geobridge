@@ -21,7 +21,7 @@ website:
 # Don't touch unless you know what you are doing :) ------------
   page-footer: 
     left: |
-      <div id="fixed-copyright">© 2025 Augusto Lima</div>
+      <div id="fixed-copyright">© 2025 Augusto Lima & Sjur Barndom</div>
     right: |
       <span class="faux-block">
         <img src="img/uva.jpg" alt="left Logo" style="height: 40px; vertical-align: middle;">

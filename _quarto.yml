@@ -23,13 +23,21 @@ website:
 # Don't touch unless you know what you are doing :) ------------
   page-footer: 
     left: |
-      <div id="fixed-copyright">© 2025 Augusto Lima</div>
+      <div id="fixed-copyright">© 2025 Augusto Lima & Sjur Barndon</div>
     right: |
       <span class="faux-block">
-        <img src="img/uva.jpg" alt="left Logo" style="height: 40px; vertical-align: middle;">
-        <img src="img/uib.png" alt="center Logo" style="height: 40px; vertical-align: middle;">
-        <img src="img/trond.jpg" alt="right Logo" style="height: 40px; vertical-align: middle;">
-        <img src="img/bjerknes.webp" alt="last Logo" style="height: 40px; vertical-align: middle;">
+        <a href="https://www.uva.nl/en">
+          <img src="img/uva.jpg" alt="left Logo" style="height: 40px; vertical-align: middle;">
+        </a>
+        <a href="https://www.uib.no/en">
+          <img src="img/uib.png" alt="center Logo" style="height: 40px; vertical-align: middle;">
+        </a>
+        <a href="https://mohnfoundation.no/en/">
+          <img src="img/trond.jpg" alt="right Logo" style="height: 40px; vertical-align: middle;">
+        </a>
+        <a href="https://bjerknes.uib.no/en">
+          <img src="img/bjerknes.webp" alt="last Logo" style="height: 40px; vertical-align: middle;">
+        </a>
       </span>
 
 project:

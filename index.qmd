@@ -28,7 +28,7 @@ class: home-page
 <div style="text-align: center;">
   <img src="https://github.com/ac-lima/UiBseminarseries/raw/main/img/proj.png" alt="Project Logo" style="max-width: 50%; height: auto; object-fit: contain;">
   <p style="margin-top: 1rem; font-size: 1.5em; color: inherit;">
-    A UiB collaborative platform for GIS/RS methods
+    A UiB collaborative platform for GIS/RS methods in landscape analysis in a changing world
   </p>
 </div>
 

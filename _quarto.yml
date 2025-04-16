@@ -1,14 +1,16 @@
 # This file controls the settings for your Quarto template
 
+
 # website settings
 website:
-  title: "UiB Collaborative Platform for GIS/RS"                               
-  image: img/my_image.jpg
+  title: "GeoBridge"                               
   search: false
+  site-url: https://geobridge.github.io
   
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true
+    logo: img/favicon.png
     
     # your sub-pages
     left:

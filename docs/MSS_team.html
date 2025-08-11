@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>uavworkshop – GeoBridge</title>
+<title>mss_team – GeoBridge</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,7 +50,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<style>html{ scroll-behavior: smooth; }</style>
 
 
 </head>
@@ -118,35 +117,98 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div style="text-align: center;">
-<img src="img/uavbanner.png" alt="UAV Workshop Banner" style="max-width: 100%; height: auto; object-fit: contain;">
-<p style="margin-top: 1rem; font-size: 1.2em; color: inherit;">
-A hands-on, immersive experience combining UAV fieldwork and geospatial analysis.
+<style>
+/* Base layout (unchanged) */
+.member-circle {
+  width: 275px;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  transform: translateY(-20%);
+}
+
+/* Your manual spacing for top row (1–4) */
+.member1 { left: 120px; top: 20%; }
+.member2 { left: calc(120px + 400px + 25px); top: 20%; }
+.member3 { left: calc(120px + 400px + 25px + 400px + 25px); top: 20%; }
+.member4 { left: calc(120px + 400px + 25px + 400px + 25px + 400px + 25px); top: 20%; }
+
+/* Second row (5–8) — same left positions, but move lower */
+.member5 { left: 120px; top: calc(20% + 350px); }
+.member6 { left: calc(120px + 400px + 25px); top: calc(20% + 350px); }
+.member7 { left: calc(120px + 400px + 25px + 400px + 25px); top: calc(20% + 350px); }
+.member8 { left: calc(120px + 400px + 25px + 400px + 25px + 400px + 25px); top: calc(20% + 350px); }
+
+/* Styling for the images */
+.member-image {
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.member-image:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for the label */
+.member-circle p {
+  margin-top: 15px;
+  font-size: 1em;
+  color: #222;
+}
+</style>
+<!-- Member entries -->
+<div class="member-circle member1">
+<a href="./suzette.html"> <img src="img/suzette.jpg" alt="Member 1" class="member-image"> </a>
+<p>
+Suzette Flantua
 </p>
 </div>
-<p>The <strong>2-Day UAV and Remote Sensing Workshop</strong> offers an engaging mix of field missions, data processing, and applied GIS/RS learning. Join researchers, students, and professors for a practical and theoretical deep dive into modern UAV-based landscape analysis.</p>
-<ul>
-<li>🚁 <strong>On-site UAV Flights &amp; Data Collection</strong>: Learn mission planning, data capture, and safety.</li>
-<li>🖥️ <strong>Evening Lab Sessions</strong>: Turn raw drone imagery into real geospatial products.</li>
-<li>🗺️ <strong>Integrated Theory &amp; Application</strong>: Taught by specialists in UAVs and environmental RS.</li>
-</ul>
-<div style="margin: 30px; text-align: center;">
-<p><a class="btn btn-primary" href="https://universityofbergen-my.sharepoint.com/:w:/g/personal/augusto_naschimento_uib_no/ETD_4e4jF-BEu5_1W0Ko50wBoKnVWTsK0FMe_Yolk5FJ6w?e=cVGPSb" role="button" target="_blank" style="padding: 15px 30px;">Learn more about our program</a></p>
-</div>
-<div style="text-align: center;">
-<img src="img/uavbanner2.png" alt="UAV Workshop Banner" style="max-width: 100%; height: auto; object-fit: contain;">
-<p style="margin-top: 1rem; font-size: 1.2em; color: inherit;">
-Set in a stunning mountain landscape ideal for UAV-based environmental monitoring — only 8 spots available!
+<div class="member-circle member2">
+<a href="./augusto.html"> <img src="img/augusto.jpeg" alt="Member 2" class="member-image"> </a>
+<p>
+Augusto Lima
 </p>
 </div>
-<ul>
-<li>💰 <strong>All costs covered</strong>: Transportation, accommodation, and meals are fully funded for selected participants.<br>
-</li>
-<li>🎒<strong>What to bring</strong>: A personal laptop is required. Also bring appropriate field gear (e.g.&nbsp;hiking boots, waterproof layers) and your favourite snack!</li>
-<li>🕐 <strong>Application Deadline</strong>: 9 May 2025 at 12.00 pm</li>
-</ul>
-<div style="margin: 30px; text-align: center;">
-<p><a class="btn btn-primary" href="https://forms.office.com/e/28iUi772Mu" role="button" target="_blank" style="padding: 15px 30px;">Apply here! See you soon.</a></p>
+<div class="member-circle member3">
+<a href="./benjamin.html"> <img src="img/benjamin.jpg" class="member-image"> </a>
+<p>
+Benjamin Robson
+</p>
+</div>
+<div class="member-circle member4">
+<a href="./daniel.html"> <img src="img/daniel.png" class="member-image"> </a>
+<p>
+Daniel Thomas
+</p>
+</div>
+<div class="member-circle member5">
+<a href="./alistair.html"> <img src="img/alistair.jpg" class="member-image"> </a>
+<p>
+Alistair Seddon
+</p>
+</div>
+<div class="member-circle member6">
+<a href="./peter.html"> <img src="img/peter.jpg" class="member-image"> </a>
+<p>
+Peter Manning
+</p>
+</div>
+<div class="member-circle member7">
+<a href="./orjan.html"> <img src="img/orjan.jpg" class="member-image"> </a>
+<p>
+Ørjan Totland
+</p>
+</div>
+<div class="member-circle member8">
+<a href="./gidske.html"> <img src="img/gidske.jpg" class="member-image"> </a>
+<p>
+Gidske Andersen
+</p>
 </div>
 
 
@@ -571,5 +633,4 @@ Set in a stunning mountain landscape ideal for UAV-based environmental monitorin
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

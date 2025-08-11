@@ -14,11 +14,16 @@ website:
     
     # your sub-pages
     left:
-      - href: seminars.qmd
-        text: Monthly Seminar Series
-      - href: uavworkshop.qmd
-        text: UAV and RS Workshop
-    
+      - text: Monthly Seminar Series
+        menu:
+          - href: seminars.qmd
+            text: About
+          - href: MSS_team.qmd
+            text: Team
+      - text: Archive
+        menu:
+          - href: uavworkshop.qmd
+            text: UAV and RS Workshop
 
 # Don't touch unless you know what you are doing :) ------------
   page-footer: 
@@ -43,6 +48,9 @@ website:
 project:
   type: website
   output-dir: docs
+  resources:
+    - img/**
+
 
   preview:
     browser: true

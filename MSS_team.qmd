@@ -1,0 +1,106 @@
+---
+class: member-page
+format: html
+---
+
+<style>
+/* Base layout (unchanged) */
+.member-circle {
+  width: 275px;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  transform: translateY(-20%);
+}
+
+/* Your manual spacing for top row (1–4) */
+.member1 { left: 120px; top: 20%; }
+.member2 { left: calc(120px + 400px + 25px); top: 20%; }
+.member3 { left: calc(120px + 400px + 25px + 400px + 25px); top: 20%; }
+.member4 { left: calc(120px + 400px + 25px + 400px + 25px + 400px + 25px); top: 20%; }
+
+/* Second row (5–8) — same left positions, but move lower */
+.member5 { left: 120px; top: calc(20% + 350px); }
+.member6 { left: calc(120px + 400px + 25px); top: calc(20% + 350px); }
+.member7 { left: calc(120px + 400px + 25px + 400px + 25px); top: calc(20% + 350px); }
+.member8 { left: calc(120px + 400px + 25px + 400px + 25px + 400px + 25px); top: calc(20% + 350px); }
+
+/* Styling for the images */
+.member-image {
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.member-image:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for the label */
+.member-circle p {
+  margin-top: 15px;
+  font-size: 1em;
+  color: #222;
+}
+</style>
+
+<!-- Member entries -->
+<div class="member-circle member1">
+  <a href="suzette.qmd">
+    <img src="img/suzette.jpg" alt="Member 1" class="member-image">
+  </a>
+  <p>Suzette Flantua</p>
+</div>
+
+<div class="member-circle member2">
+  <a href="augusto.qmd">
+    <img src="img/augusto.jpeg" alt="Member 2" class="member-image">
+  </a>
+  <p>Augusto Lima</p>
+</div>
+
+<div class="member-circle member3">
+  <a href="benjamin.qmd">
+    <img src="img/benjamin.jpg" class="member-image">
+  </a>
+  <p>Benjamin Robson</p>
+</div>
+
+<div class="member-circle member4">
+  <a href="daniel.qmd">
+    <img src="img/daniel.png" class="member-image">
+  </a>
+  <p>Daniel Thomas</p>
+</div>
+
+<div class="member-circle member5">
+  <a href="alistair.qmd">
+    <img src="img/alistair.jpg" class="member-image">
+  </a>
+  <p>Alistair Seddon</p>
+</div>
+
+<div class="member-circle member6">
+  <a href="peter.qmd">
+    <img src="img/peter.jpg" class="member-image">
+  </a>
+  <p>Peter Manning</p>
+</div>
+
+<div class="member-circle member7">
+  <a href="orjan.qmd">
+    <img src="img/orjan.jpg" class="member-image">
+  </a>
+  <p>Ørjan Totland</p>
+</div>
+
+<div class="member-circle member8">
+  <a href="gidske.qmd">
+    <img src="img/gidske.jpg" class="member-image">
+  </a>
+  <p>Gidske Andersen</p>
+</div>

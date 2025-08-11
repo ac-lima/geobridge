@@ -1,0 +1,6 @@
+---
+format:
+  html:
+    code-fold: true
+    smooth-scroll: true
+---

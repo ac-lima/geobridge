@@ -1,6 +1,70 @@
 ---
 format:
   html:
+    page-layout: full
     code-fold: true
     smooth-scroll: true
+    toc: true
+css: profile-styles.scss
 ---
+
+<!-- load Bootstrap Icons once (for the social icons) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+```{=html}
+<div class="profile-container">
+  <!-- Profile Photo Section -->
+  <div class="profile-photo-section">
+    <img src="img/peter.jpg" alt="Peter Manning" class="profile-image">
+   
+   <div class="profile-social">
+      <a href="peter.manning@uib.no" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://scholar.google.com/citations?user=X_HIGAwAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
+      <a href="https://orcid.org/0000-0002-7940-2023" target="_blank" rel="noopener" aria-label="ORCID"><i class="bi bi-person-badge"></i></a>
+      <a href="https://www4.uib.no/en/find-employees/Peter.Manning" target="_blank" rel="noopener" aria-label="Website"><i class="bi bi-globe2"></i></a>
+    </div>
+  </div>
+
+  <!-- Main Content Section -->
+  <div class="profile-content">
+    <!-- Profile Header -->
+    <div class="profile-header">
+      <div class="profile-name">Ørjan Totland</div>
+    </div>
+    
+    <!-- Profile Description -->
+    <div class="profile-description">
+      <p>Professor in Global Change Ecology affiliated with the <a href="https://w4.uib.no/en/research/research-groups/terrestrial-ecology">Terrestrial Ecology</a> research group and to the <a href="https://www4.uib.no/en/research/research-centres/centre-for-sustainable-area-management-cesam">Centre for Sustainable Area Management (CeSAM)</a> within the Department of Biological Sciences at the University of Bergen. Professor Peter Manning's <strong>research interests</strong> include:</p>
+      
+      <ul class="mb-0">
+        <li>Relationships between land use, biodiversity, ecosystem functioning and ecosystem services, particularly in grasslands and forests, by a combination of data synthesis and modelling.</li>
+        <li>Synthesizing knowledge in plant, microorganisms and invertebrates communities and ecosystems, including the human component in social-ecological approaches.</li>
+      </ul>
+    </div>
+
+    <!-- Research Projects Section -->
+    <div class="page-header">
+      <h2>Research Projects</h2>
+    </div>
+      
+    <div class="members-background-box">
+      <p><strong>Identifying the drivers of demands for Nature’s Contributions to People (NCPNorge):</strong> measure the relative demand for different Nature’s Contributions to People (NCP), including both material and non-material NCP, across Norwegian society and to identify the social drivers of demand for these services. This project aims to develop a widely applicable model that will predict the social impacts of ecosystem change across the whole of Norway.</p>
+    </div>
+
+     <div class="members-background-box">
+      <p><strong>2.	Biodiversity Exploratories:</strong> Analysing the dynamic feedback loops between land use, the diversity of genetics and species, and biological interactions and ecosystem service in real landscapes. To tackle such topics, this project will examine:
+      
+      <ul class="mb-0">
+        <li>How the form and intensities of land use affect biodiversity and ecosystem processes.</li>
+        <li>How different components of biodiversity interact.</li>
+        <li>How different components of biodiversity influence ecosystem processes and ecosystem services.</li> 
+      </ul>
+    </div>
+
+    <div class="members-background-box">
+      <p><strong>Kilimanjaro Social-Ecological System (Kili-SES):</strong> Investigating the interactions and inter-dependencies between people and nature at Mount Kilimanjaro under land0use, climate, and governance change.</p>
+    </div>
+  </div>
+</div>
+```
+

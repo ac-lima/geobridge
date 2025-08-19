@@ -1,5 +1,10 @@
 ---
-format: html
+format: 
+  html:
+    grid:
+      sidebar-width: 250px
+      margin-width: 250px
+      body-width: 800px
 class: home-page
 ---
 

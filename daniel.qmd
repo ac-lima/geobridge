@@ -1,6 +1,52 @@
 ---
 format:
   html:
+    page-layout: full
     code-fold: true
     smooth-scroll: true
+    toc: true
+css: profile-styles.scss
 ---
+
+<!-- load Bootstrap Icons once (for the social icons) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+```{=html}
+<div class="profile-container">
+  <!-- Profile Photo Section -->
+  <div class="profile-photo-section">
+    <img src="img/daniel.png" alt="Daniel Thomas" class="profile-image">
+   
+   <div class="profile-social">
+      <a href="daniel.thomas@uib.no" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://scholar.google.com/citations?user=ZgA41iQAAAAJ&hl=no" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
+      <a href="https://orcid.org/0000-0002-9425-1243" target="_blank" rel="noopener" aria-label="ORCID"><i class="bi bi-person-badge"></i></a>
+      <a href="https://www.linkedin.com/in/danieljackthomas/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www4.uib.no/en/find-employees/Daniel.Thomas" target="_blank" rel="noopener" aria-label="Website"><i class="bi bi-globe2"></i></a>
+    </div>
+  </div>
+
+  <!-- Main Content Section -->
+  <div class="profile-content">
+    <!-- Profile Header -->
+    <div class="profile-header">
+      <div class="profile-name">Daniel Thomas</div>
+    </div>
+    
+    <!-- Profile Description -->
+    <div class="profile-description">
+      <p>PhD Candidate in Geomatics and Remote Sensing affiliated with the <a href="https://www4.uib.no/en/research/research-groups/quaternary-geology-and-paleoclimate">Quaternary Geology and Paleoclimate</a> research group within the Department of Earth Science and the Bjerknes Centre for Climate Research at the University of Bergen. Danield Thomas' <strong>research interests</strong> include:</p>
+      
+      <ul class="mb-0">
+        <li>Classification and evolution of glacier-rock glacier complexes over large spatial and temporal scales using remote sensing, field geomatics (UAVs) and deep learning. </li>
+      </ul>
+    </div>
+
+    <!-- Research Projects Section -->
+    <div class="page-header">
+      <h2>Research Projects</h2>
+    </div>
+  </div>
+</div>
+```
+

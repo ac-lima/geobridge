@@ -1,0 +1,52 @@
+---
+format:
+  html:
+    page-layout: full
+    code-fold: true
+    smooth-scroll: true
+    toc: true
+css: profile-styles.scss
+---
+
+<!-- load Bootstrap Icons once (for the social icons) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+```{=html}
+<div class="profile-container">
+  <!-- Profile Photo Section -->
+  <div class="profile-photo-section">
+    <img src="img/nina.jpg" alt="Nina Hećej" class="profile-image">
+   
+   <div class="profile-social">
+      <a href="nina.hecej@uib.no" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://orcid.org/0000-0002-4869-5732" target="_blank" rel="noopener" aria-label="ORCID"><i class="bi bi-person-badge"></i></a>
+      <a href="https://www4.uib.no/finn-ansatte/Nina.He%C4%87ej" target="_blank" rel="noopener" aria-label="Website"><i class="bi bi-globe2"></i></a>
+    </div>
+  </div>
+
+  <!-- Main Content Section -->
+  <div class="profile-content">
+    <!-- Profile Header -->
+    <div class="profile-header">
+      <div class="profile-name">Nina Hećej</div>
+    </div>
+    
+    <!-- Profile Description -->
+    <div class="profile-description">
+      <p>PhD Candidate in Geophysics and Remote Sensing affiliated with the <a href="https://www4.uib.no/en/research/research-groups/geophysics-research-group">Geophysics</a> research group within the Department of Earth Science and the Bjerknes Centre for Climate Research at the University of Bergen. Nina Hećej's <strong>research interests</strong> include:</p>
+      
+      <ul class="mb-0">
+        <li>Identifying and analyzing landslides and their triggering mechanisms using seismological, environmental, remote sensing data, and spatial-temporal analysis</li>
+        <li>Usage of deep learning algorithms to automate ladslide detection, and other geomorphological features.</li>
+        <li>Paleoenvironmental and paleoclimatic reconstructions from Quaternary geological mapping.</li>
+      </ul>
+    </div>
+
+    <!-- Research Projects Section -->
+    <div class="page-header">
+      <h2>Research Projects</h2>
+    </div>
+  </div>
+</div>
+```
+

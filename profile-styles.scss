@@ -1,0 +1,247 @@
+/*-- scss:defaults --*/
+
+// SCSS Variables for profile page
+$profile-image-size-large: 275px;
+$profile-image-size-medium: 225px;
+$profile-image-size-small: 200px;
+$profile-gap: 40px;
+$profile-gap-medium: 30px;
+$profile-gap-small: 20px;
+$shadow-light: 0 4px 12px rgba(0,0,0,0.15);
+$shadow-hover: 0 8px 24px rgba(0,0,0,0.25);
+$transition-duration: 0.3s;
+$text-color: #222;
+
+// The left hand sidebar
+$grid-sidebar-width:150px !default;
+
+// The main body
+$grid-body-width: 1000px !default;
+
+// The right hand margin bar
+$grid-margin-width: 250px !default;
+
+// The gutter that appears between the above columns
+$grid-column-gutter-width: 1.5rem !default;
+
+/*-- scss:rules --*/
+
+/* Profile container using CSS Grid */
+.profile-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: $profile-gap;
+  align-items: start;
+  max-width: 1400px; /* Increased from 1200px to 1400px */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Profile photo section */
+.profile-photo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 20px; /* Sticky positioning for larger screens */
+}
+
+/* Profile image styling */
+.profile-image {
+  width: $profile-image-size-large;
+  height: $profile-image-size-large;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: $shadow-light;
+  transition: transform $transition-duration ease, box-shadow $transition-duration ease;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: $shadow-hover;
+  }
+}
+
+/* Social icons styling */
+.profile-social {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+
+  a {
+    font-size: 1.35rem;
+    color: var(--bs-gray-700);
+    text-decoration: none;
+    transition: color $transition-duration ease, transform $transition-duration ease;
+
+    &:hover {
+      color: var(--bs-primary);
+      transform: translateY(-2px);
+    }
+  }
+}
+
+/* Profile content section - ensure proper alignment */
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-self: start; /* Align to start of grid cell */
+}
+
+/* Profile header styling */
+.profile-header {
+  margin-bottom: 20px;
+  
+  h1, h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    margin-top: 0;
+    color: $text-color;
+  }
+  
+  .profile-name {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0;
+    color: $text-color;
+    line-height: 1.2;
+  }
+}
+
+/* Profile description styling */
+.profile-description {
+  margin-bottom: 30px;
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    margin-top: 15px;
+    
+    li {
+      margin-bottom: 8px;
+      line-height: 1.5;
+    }
+  }
+}
+
+/* Header and Info Box Styles */
+.page-header {
+    text-align: center;
+    padding: 20px 20px 20px; /* Re-add padding to the header itself */
+    background: linear-gradient(135deg, #068194 0%, #57858b 100%);
+    color: white;
+    overflow: hidden; /* Crucial: Prevents margin collapsing with child elements */
+}
+
+.page-header h2 {
+    font-size: 2.0em;
+    margin-bottom: 0px; /* Keep some space below the heading */
+    margin-top: 0px; /* Remove default top margin from h1 */
+}
+
+.page-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0px; /* Keep some space below the heading */
+    margin-top: 0px; /* Remove default top margin from h1 */
+}
+
+/* Shaded background box for members */
+.members-background-box {
+  background-color: #f1f8fa; /* Light blue shade */
+  padding: 20px;
+  margin-top: 0; /* Ensure no negative margin if demo-info is removed */
+  margin-bottom: 15px; /* Add space between boxes */
+  border-radius: 0 0 8px 8px; /* Rounded corners only at the bottom */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1024px) {
+  .profile-container {
+    gap: $profile-gap-medium;
+    padding: 15px;
+  }
+
+  .profile-image {
+    width: $profile-image-size-medium;
+    height: $profile-image-size-medium;
+  }
+
+  .profile-photo-section {
+    position: static; /* Remove sticky on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    grid-template-columns: 1fr; /* Stack vertically on tablets */
+    gap: $profile-gap-small;
+    text-align: center;
+  }
+
+  .profile-photo-section {
+    justify-self: center;
+    margin-bottom: 20px;
+  }
+
+  .profile-image {
+    width: $profile-image-size-small;
+    height: $profile-image-size-small;
+  }
+
+  .profile-content {
+    text-align: left; /* Reset text alignment for content */
+  }
+
+  .profile-header {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-container {
+    padding: 10px;
+  }
+
+  .profile-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .profile-social {
+    gap: 12px;
+
+    a {
+      font-size: 1.2rem;
+    }
+  }
+
+  .profile-header h1, .profile-header h2, .profile-header .profile-name {
+    font-size: 1.8em;
+  }
+
+  .page-header h2 {
+    font-size: 1.5em;
+  }
+}
+
+/* Ensure Quarto's TOC doesn't interfere */
+.quarto-sidebar-toc {
+  position: sticky;
+  top: 20px;
+}
+
+/* Override any absolute positioning from original styles */
+.member-circle {
+  position: static !important;
+  transform: none !important;
+  width: auto !important;
+  top: auto !important;
+  left: auto !important;
+}

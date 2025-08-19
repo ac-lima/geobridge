@@ -34,7 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-a37c72dd2dbac68997fcdc15a3622e78.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5f4357bf549698a699929dda9afdeff0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-720b5c3eac2540e84ea11c9396e643ef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -52,9 +52,10 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="member-styles.scss">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -84,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="./MSS_team.html">
- <span class="dropdown-text">Team</span></a>
+ <span class="dropdown-text">Team Members</span></a>
   </li>  
     </ul>
   </li>
@@ -107,108 +108,65 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<style>
-/* Base layout (unchanged) */
-.member-circle {
-  width: 275px;
-  text-align: center;
-  font-weight: bold;
-  position: absolute;
-  top: 20%;
-  transform: translateY(-20%);
-}
-
-/* Your manual spacing for top row (1–4) */
-.member1 { left: 120px; top: 20%; }
-.member2 { left: calc(120px + 400px + 25px); top: 20%; }
-.member3 { left: calc(120px + 400px + 25px + 400px + 25px); top: 20%; }
-.member4 { left: calc(120px + 400px + 25px + 400px + 25px + 400px + 25px); top: 20%; }
-
-/* Second row (5–8) — same left positions, but move lower */
-.member5 { left: 120px; top: calc(20% + 350px); }
-.member6 { left: calc(120px + 400px + 25px); top: calc(20% + 350px); }
-.member7 { left: calc(120px + 400px + 25px + 400px + 25px); top: calc(20% + 350px); }
-.member8 { left: calc(120px + 400px + 25px + 400px + 25px + 400px + 25px); top: calc(20% + 350px); }
-
-/* Styling for the images */
-.member-image {
-  width: 275px;
-  height: 275px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  transition: transform 0.3s ease;
-}
-
-.member-image:hover {
-  transform: scale(1.05);
-}
-
-/* Styling for the label */
-.member-circle p {
-  margin-top: 15px;
-  font-size: 1em;
-  color: #222;
-}
-</style>
-<!-- Member entries -->
-<div class="member-circle member1">
-<a href="./suzette.html"> <img src="img/suzette.jpg" alt="Member 1" class="member-image"> </a>
-<p>
-Suzette Flantua
-</p>
+<div class="page-header">
+    <p></p><h1>Meet Our Team</h1><p></p>
+    <p>Welcome to our team page! Below you'll find information about the dedicated individuals who make our work possible.</p>
 </div>
-<div class="member-circle member2">
-<a href="./augusto.html"> <img src="img/augusto.jpeg" alt="Member 2" class="member-image"> </a>
-<p>
-Augusto Lima
-</p>
-</div>
-<div class="member-circle member3">
-<a href="./benjamin.html"> <img src="img/benjamin.jpg" class="member-image"> </a>
-<p>
-Benjamin Robson
-</p>
-</div>
-<div class="member-circle member4">
-<a href="./daniel.html"> <img src="img/daniel.png" class="member-image"> </a>
-<p>
-Daniel Thomas
-</p>
-</div>
-<div class="member-circle member5">
-<a href="./alistair.html"> <img src="img/alistair.jpg" class="member-image"> </a>
-<p>
-Alistair Seddon
-</p>
-</div>
-<div class="member-circle member6">
-<a href="./peter.html"> <img src="img/peter.jpg" class="member-image"> </a>
-<p>
-Peter Manning
-</p>
-</div>
-<div class="member-circle member7">
-<a href="./orjan.html"> <img src="img/orjan.jpg" class="member-image"> </a>
-<p>
-Ørjan Totland
-</p>
-</div>
-<div class="member-circle member8">
-<a href="./gidske.html"> <img src="img/gidske.jpg" class="member-image"> </a>
-<p>
-Gidske Andersen
-</p>
+
+<div class="members-background-box">
+  <div class="members-container">
+    <div class="member-circle">
+      <a href="./suzette.html">
+        <img src="img/suzette.jpg" alt="Suzette Flantua" class="member-image">
+      </a>
+      <p>Suzette Flantua</p>
+    </div>
+
+    <div class="member-circle">
+      <a href="./augusto.html">
+        <img src="img/augusto.jpeg" alt="Augusto Lima" class="member-image">
+      </a>
+      <p>Augusto Lima</p>
+    </div>
+
+    <div class="member-circle">
+      <a href="./benjamin.html">
+        <img src="img/benjamin.jpg" alt="Benjamin Robson" class="member-image">
+      </a>
+      <p>Benjamin Robson</p>
+    </div>
+
+    <div class="member-circle">
+      <a href="./daniel.html">
+        <img src="img/daniel.png" alt="Daniel Thomas" class="member-image">
+      </a>
+      <p>Daniel Thomas</p>
+    </div>
+
+    <div class="member-circle">
+      <a href="./peter.html">
+        <img src="img/peter.jpg" alt="Peter Manning" class="member-image">
+      </a>
+      <p>Peter Manning</p>
+    </div>
+
+    <div class="member-circle">
+      <a href="./nina.html">
+        <img src="img/nina.jpg" alt="Nina Hećej" class="member-image">
+      </a>
+      <p>Nina Hećej</p>
+    </div>
+  </div>
 </div>
 
 

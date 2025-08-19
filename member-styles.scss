@@ -1,0 +1,195 @@
+/*-- scss:defaults --*/
+
+// SCSS Variables for easier customization
+$member-size-large: 275px;
+$member-size-medium: 250px;
+$member-size-small: 200px;
+$grid-gap: 25px;
+$grid-gap-medium: 30px;
+$grid-gap-small: 20px;
+$container-padding: 40px 20px;
+$container-padding-medium: 30px 15px;
+$container-padding-small: 20px 10px;
+$container-padding-mobile: 20px;
+$container-max-width: 1800px;
+$shadow-light: 0 4px 12px rgba(0,0,0,0.15);
+$shadow-hover: 0 8px 24px rgba(0,0,0,0.25);
+$transition-duration: 0.3s;
+$text-color: #222;
+$placeholder-bg: #0681947e;
+$placeholder-color: #068194;
+
+// The left hand sidebar
+$grid-sidebar-width: 10px !default;
+
+// The main body
+$grid-body-width: 1000px !default;
+
+// The right hand margin bar
+$grid-margin-width: 300px !default;
+
+// The gutter that appears between the above columns
+$grid-column-gutter-width: 1.5rem !default;
+
+/*-- scss:rules --*/
+
+// Container for the member grid
+.members-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($member-size-large, 1fr));
+  gap: $grid-gap;
+  padding: $container-padding;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+// Base member circle styling
+.member-circle {
+  width: $member-size-large;
+  text-align: center;
+  font-weight: bold;
+  transition: transform $transition-duration ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  // Styling for the label
+  p {
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: $text-color;
+    font-weight: 600;
+  }
+
+  // Ensure links don't have default styling
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+// Styling for the images
+.member-image {
+  width: $member-size-large;
+  height: $member-size-large;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: $shadow-light;
+  transition: transform $transition-duration ease, box-shadow $transition-duration ease;
+  background-color: $placeholder-bg;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $placeholder-color;
+  font-size: 14px;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: $shadow-hover;
+  }
+}
+
+// Responsive breakpoints using SCSS nesting
+@media (max-width: 1400px) {
+  .members-container {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .members-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: $grid-gap-medium;
+    padding: $container-padding-medium;
+  }
+  
+  .member-circle {
+    width: $member-size-medium;
+
+    p {
+      font-size: 1em;
+      margin-top: 12px;
+    }
+  }
+  
+  .member-image {
+    width: $member-size-medium;
+    height: $member-size-medium;
+  }
+}
+
+@media (max-width: 768px) {
+  .members-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: $grid-gap-small;
+    padding: $container-padding-small;
+  }
+  
+  .member-circle {
+    width: $member-size-small;
+
+    p {
+      font-size: 1em;
+      margin-top: 12px;
+    }
+  }
+  
+  .member-image {
+    width: $member-size-small;
+    height: $member-size-small;
+  }
+}
+
+@media (max-width: 480px) {
+  .members-container {
+    grid-template-columns: 1fr;
+    gap: $grid-gap;
+    padding: $container-padding-mobile;
+  }
+  
+  .member-circle {
+    width: $member-size-large;
+    max-width: 90vw;
+  }
+  
+  .member-image {
+    width: $member-size-large;
+    height: $member-size-large;
+    max-width: 90vw;
+    max-height: 90vw;
+  }
+}
+
+/* Header and Info Box Styles */
+.page-header {
+    text-align: center;
+    padding: 40px 20px 20px; /* Re-add padding to the header itself */
+    background: linear-gradient(135deg, #068194 0%, #57858b 100%);
+    color: white;
+    overflow: hidden; /* Crucial: Prevents margin collapsing with child elements */
+}
+
+.page-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px; /* Keep some space below the heading */
+    margin-top: 0; /* Remove default top margin from h1 */
+}
+
+.page-header p {
+    font-size: 1.2em;
+    opacity: 0.9;
+    margin-top: 0; /* Remove default top margin from paragraph */
+    margin-bottom: 0; /* Remove default bottom margin from paragraph */
+}
+
+/* Shaded background box for members */
+.members-background-box {
+  background-color: #f1f8fa; /* Light blue shade */
+  padding: 20px;
+  margin-top: 0; /* Ensure no negative margin if demo-info is removed */
+  border-radius: 0 0 8px 8px; /* Rounded corners only at the bottom */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}

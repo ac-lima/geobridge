@@ -1,6 +1,77 @@
 ---
 format:
   html:
+    page-layout: full
     code-fold: true
     smooth-scroll: true
+    toc: true
+css: profile-styles.scss
 ---
+
+<!-- load Bootstrap Icons once (for the social icons) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+```{=html}
+<div class="profile-container">
+  <!-- Profile Photo Section -->
+  <div class="profile-photo-section">
+    <img src="img/benjamin.jpg" alt="Benjamin Robson" class="profile-image">
+   
+   <div class="profile-social">
+      <a href="benjamin.robson@uib.no" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://scholar.google.com/citations?user=vZ_u4gQAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
+      <a href="https://orcid.org/0000-0002-4987-7378" target="_blank" rel="noopener" aria-label="ORCID"><i class="bi bi-person-badge"></i></a>
+      <a href="https://www.linkedin.com/in/benjamin-robson-9ba0525b/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www4.uib.no/en/find-employees/Benjamin.Aubrey.Robson" target="_blank" rel="noopener" aria-label="Website"><i class="bi bi-globe2"></i></a>
+    </div>
+  </div>
+
+  <!-- Main Content Section -->
+  <div class="profile-content">
+    <!-- Profile Header -->
+    <div class="profile-header">
+      <div class="profile-name">Benjamin Robson</div>
+    </div>
+    
+    <!-- Profile Description -->
+    <div class="profile-description">
+      <p>Associate Professor in Geomatics and Remote Sensing affiliated with the <a href="https://www4.uib.no/en/research/research-groups/quaternary-geology-and-paleoclimate">Quaternary Geology and Paleoclimate</a> research group within the Department of Earth Science and the Bjerknes Centre for Climate Research at the University of Bergen. Dr. Benjamin  Robson's <strong>research interests</strong> include:</p>
+      
+      <ul class="mb-0">
+        <li>Quantifying glacial and periglacial changes over time using advanced photogrammetry and topographic analysis.</li>
+        <li>Geospatial Artificial Intelligence (GeoAI) by the application of machine learning techniques to geospatial data to automate the identification of complex glacial landforms, as for exploring the reliability and trustworthiness of GeoAI algorithms to real-world challenges in geomorphological studies.</li>
+      </ul>
+    </div>
+
+    <!-- Research Projects Section -->
+    <div class="page-header">
+      <h2>Research Projects</h2>
+    </div>
+      
+    <div class="members-background-box">
+      <p><strong>Enhancing Snow Property Estimation with GeoAI and High-Resolution Satellite Data (SNOWAI):</strong> Employing time-series data from freely available SAR and optical satellite imagery within a GeoAI framework to predict snowpack properties in Western Norway. It also explores the impacts of snowpack variability on the cryosphere and biosphere.</p>
+    </div>
+
+     <div class="members-background-box">
+      <p><strong>Collaborative Study of Cryo-Climatology in the Glaciated Himalayan Region (CO-INVENT)</strong> In collaboration with IIT Roorkee and JNU New Delhi, this project focuses on cryo-climatology research and education in the Indian Himalayas.</p>
+    </div>
+
+    <div class="members-background-box">
+      <p><strong>Integrating artificial intelligence in Earth Sciences:</strong> An educational initiative to integrate GeoAI and geomatics into Earth Science curricula at UiB, equipping students with cutting-edge skills in spatial analysis and mapping.</p>
+    </div>
+
+    <div class="members-background-box">
+      <p><strong>EO-Based Rock Glacier Mapping and Characterisation (ROGER):</strong> This project evaluates methods for the automated identification and characterization of rock glaciers and expands our knowledge of the potential of DL to efficiently map complex natural phenomena using EO data.  The project findings will contribute to increasing the trustworthiness of DL methods, which is of high importance for many applications and especially when communicating and explaining results to stakeholders and decision makers.</p>
+    </div>
+
+    <div class="members-background-box">
+      <p><strong>GEOBRIDGE - UiB collaborative platform for GIS/RS methods in landscape analysis in a changing world:</strong> Seminar series and other academic events related to GIS and RS, and landscape dynamics across the biosphere, geosphere, and cryosphere. Students from diverse academic background can united to tackle today's global environmental challenges and dive into essential tools for research and real-world problem-solving.</p>
+    </div>
+
+    <div class="members-background-box">
+      <p><strong>Natural and Societal Impacts of Climate-Driven Changes in the Jostedalsbreen Ice Cap (JOSTICE):</strong> The JOSTICE project investigates the natural and societal impacts of climate-driven changes in the Jostedalsbreen ice cap, focusing on how glacier changes affect local climate, hydropower, tourism, and agriculture. The research combines fieldwork, satellite data, and glacier modeling to understand past, present, and future changes in ice volume, runoff, and local climate patterns. The project also assesses the consequences for local communities and industries, aiming to provide a foundation for climate change adaptation strategies.</p>
+    </div>
+  </div>
+</div>
+```
+

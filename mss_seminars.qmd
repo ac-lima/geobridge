@@ -15,9 +15,8 @@ format:
 
 Spatio-temporal analyses of landscape dynamics across the biosphere, geosphere, and cryosphere are crucial in tackling today’s global environmental challenges. From land use and cover changes to glacier retreat and vegetation shifts, Geographic Information Systems (GIS) and Remote Sensing (RS) offer essential tools for research and real-world problem-solving.
 
-- 🖥️ **Hybrid Format**: [Register to get your invitation!](https://forms.office.com/e/rf88TNBL4x?origin=lprLink) 
-- 📍 **University of Bergen (UiB)**: In person sessions.
-- 📅 **May 2025 to June 2026**: [Have a look on our Sessions Calendar](https://universityofbergen-my.sharepoint.com/:x:/g/personal/augusto_naschimento_uib_no/EXfj5JpJs6dAgqwwaEASl3wBUR--hPrwcHlqLp0ppNDDrQ?e=YmdMrA).
+- 🖥️ **Online Format**: [Register to get your invitation!](https://forms.office.com/e/rf88TNBL4x?origin=lprLink) 
+- 📅 **October 2025 to June 2026**: [Have a look on our Sessions Calendar](https://universityofbergen-my.sharepoint.com/:x:/g/personal/augusto_naschimento_uib_no/EXfj5JpJs6dAgqwwaEASl3wBUR--hPrwcHlqLp0ppNDDrQ?e=YmdMrA).
 - 🌍 **Global Atendees and Audience**: [Watch our recorded sessions!](https://www.youtube.com/channel/UCZt7a3ArKzdqt1-BB9TX8bg)
 ```{=html}
 <div  style="margin: 30px; text-align: center;">

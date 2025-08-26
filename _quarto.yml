@@ -14,12 +14,18 @@ website:
     
     # your sub-pages
     left:
-      - text: Monthly Seminar Series
+      - href: about.qmd
+        text: About
+      - href: mss_seminars.qmd
+        text: Monthly Seminar Series
+      - text: Team & Projects
         menu:
-          - href: seminars.qmd
-            text: About
-          - href: MSS_team.qmd
-            text: Team Members
+          - href: teammembers.qmd
+            text: Our Team
+          - href: openprojects.qmd
+            text: Open Projects
+          - href: joinus.qmd
+            text: Join Our Team!
       - text: Archive
         menu:
           - href: uavworkshop.qmd

@@ -29,7 +29,7 @@ css: profile-styles.scss
   <div class="profile-content">
     <!-- Profile Header -->
     <div class="profile-header">
-      <div class="profile-name">Ørjan Totland</div>
+      <div class="profile-name">Peter Manning</div>
     </div>
     
     <!-- Profile Description -->
@@ -52,7 +52,7 @@ css: profile-styles.scss
     </div>
 
      <div class="members-background-box">
-      <p><strong>2.	Biodiversity Exploratories:</strong> Analysing the dynamic feedback loops between land use, the diversity of genetics and species, and biological interactions and ecosystem service in real landscapes. To tackle such topics, this project will examine:
+      <p><strong>Biodiversity Exploratories:</strong> Analysing the dynamic feedback loops between land use, the diversity of genetics and species, and biological interactions and ecosystem service in real landscapes. To tackle such topics, this project will examine:
       
       <ul class="mb-0">
         <li>How the form and intensities of land use affect biodiversity and ecosystem processes.</li>

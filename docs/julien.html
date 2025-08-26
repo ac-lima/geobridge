@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>mss_team – GeoBridge</title>
+<title>julien – GeoBridge</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,9 +50,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
-<link rel="stylesheet" href="member-styles.scss">
+<link rel="stylesheet" href="profile-styles.scss">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -74,18 +75,30 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./mss_seminars.html"> 
+<span class="menu-text">Monthly Seminar Series</span></a>
+  </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-monthly-seminar-series" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Monthly Seminar Series</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-team--projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Team &amp; Projects</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-monthly-seminar-series">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-team--projects">    
         <li>
-    <a class="dropdown-item" href="./seminars.html">
- <span class="dropdown-text">About</span></a>
+    <a class="dropdown-item" href="./teammembers.html">
+ <span class="dropdown-text">Our Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./MSS_team.html">
- <span class="dropdown-text">Team Members</span></a>
+    <a class="dropdown-item" href="./openprojects.html">
+ <span class="dropdown-text">Open Projects</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./joinus.html">
+ <span class="dropdown-text">Join Our Team!</span></a>
   </li>  
     </ul>
   </li>
@@ -111,60 +124,59 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<div class="page-header">
-    <p></p><h1>Meet Our Team</h1><p></p>
-    <p>Welcome to our team page! Below you'll find information about the dedicated individuals who make our work possible.</p>
-</div>
+<!-- load Bootstrap Icons once (for the social icons) -->
+<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"></p>
+<div class="profile-container">
+  <!-- Profile Photo Section -->
+  <div class="profile-photo-section">
+    <img src="img/julien.png" alt="Julien Vadnais" class="profile-image">
+   
+   <div class="profile-social">
+      <a href="julien.vadnais@uib.no" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://www.researchgate.net/profile/Julien-Vadnais" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
+      <a href="https://orcid.org/0009-0003-2680-8841" target="_blank" rel="noopener" aria-label="ORCID"><i class="bi bi-person-badge"></i></a>
+      <a href="https://www.linkedin.com/in/julien-vadnais-7400a8238/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www4.uib.no/en/find-employees/Julien.Vadnais" target="_blank" rel="noopener" aria-label="Website"><i class="bi bi-globe2"></i></a>
+    </div>
+  </div>
 
-<div class="members-background-box">
-  <div class="members-container">
-    <div class="member-circle">
-      <a href="./suzette.html">
-        <img src="img/suzette.jpg" alt="Suzette Flantua" class="member-image">
-      </a>
-      <p>Suzette Flantua</p>
+  <!-- Main Content Section -->
+  <div class="profile-content">
+    <!-- Profile Header -->
+    <div class="profile-header">
+      <div class="profile-name">Julien Vadnais</div>
+    </div>
+    
+    <!-- Profile Description -->
+    <div class="profile-description">
+      <p>PhD Candidate in Geomatics and Remote Sensing affiliated with the <a href="https://www4.uib.no/en/research/research-groups/geodynamics-and-basin-studies">Geodynamic and Basin Studies</a> research group within the Department of Earth Science at the University of Bergen. Julien Vadnais' <strong>research interests</strong> include:</p>
+      
+      <ul class="mb-0">
+        <li>Multispectral and SAR remote sensing in a multitude of topics covering the geosphere, cryosphere and biosphere.</li>
+        <li>Machine learning (computer vision) mapping methods.</li>
+      </ul>
     </div>
 
-    <div class="member-circle">
-      <a href="./augusto.html">
-        <img src="img/augusto.jpeg" alt="Augusto Lima" class="member-image">
-      </a>
-      <p>Augusto Lima</p>
+    <!-- Research Projects Section -->
+    <div class="page-header">
+      <h2 class="anchored">Research Projects</h2>
     </div>
 
-    <div class="member-circle">
-      <a href="./benjamin.html">
-        <img src="img/benjamin.jpg" alt="Benjamin Robson" class="member-image">
-      </a>
-      <p>Benjamin Robson</p>
+    <div class="members-background-box">
+      <p><strong>Advanced geomatics and machine learning to map and study spatio-temporal patterns of natural hydrocarbon seepage in the North Sea:</strong> Identifying, mapping, and understanding the distributon and change over time of natural oil and gas leaks from seabed into North Sea through the use of advanced remote sensing techniques and machine learning frameworks.</p>
     </div>
 
-    <div class="member-circle">
-      <a href="./daniel.html">
-        <img src="img/daniel.png" alt="Daniel Thomas" class="member-image">
-      </a>
-      <p>Daniel Thomas</p>
-    </div>
-
-    <div class="member-circle">
-      <a href="./peter.html">
-        <img src="img/peter.jpg" alt="Peter Manning" class="member-image">
-      </a>
-      <p>Peter Manning</p>
-    </div>
-
-    <div class="member-circle">
-      <a href="./nina.html">
-        <img src="img/nina.jpg" alt="Nina Hećej" class="member-image">
-      </a>
-      <p>Nina Hećej</p>
+    <div class="members-background-box">
+      <p><strong>Applications of geospatial artificial intelligence (GeoAI) to analyze landscape effects on hive health:</strong> Master's project that applied GeoAI frameworks to analyze how landscape affects beehive health.</p>
     </div>
   </div>
 </div>
@@ -591,4 +603,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

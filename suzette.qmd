@@ -37,7 +37,7 @@ css: profile-styles.scss
     
     <!-- Profile Description -->
     <div class="profile-description">
-      <p>Researcher in Global Change Ecology affiliated with the <a href="https://w4.uib.no/en/research/research-groups/terrestrial-ecology">Terrestrial Ecology</a>, and leader of the <a href="https://mountainsinmotion.w.uib.no/">Mountain in Motions</a> research groups within the Department of Biological Sciences and the Bjerknes Centre for Climate Research at the University of Bergen. Dr. Suzette Flantua's <strong>research interests</strong> include:</p>
+      <p>Researcher in Global Change Ecology affiliated with the <a href="https://w4.uib.no/en/research/research-groups/terrestrial-ecology">Terrestrial Ecology</a>, and leader of the <a href="https://mountainsinmotion.w.uib.no/">Mountains in Motion</a> research groups within the Department of Biological Sciences and the Bjerknes Centre for Climate Research at the University of Bergen. Dr. Suzette Flantua's <strong>research interests</strong> include:</p>
       
       <ul class="mb-0">
         <li>Integrate biogeography, paleoecology, landscape ecology, and spatial analyses to gain new insights into the drives of global mountain biodiversity over short and long time scales.</li>

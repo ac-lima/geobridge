@@ -1,0 +1,59 @@
+---
+format:
+  html:
+    page-layout: full
+    code-fold: true
+    smooth-scroll: true
+    toc: true
+css: profile-styles.scss
+---
+
+<!-- load Bootstrap Icons once (for the social icons) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+```{=html}
+<div class="profile-container">
+  <!-- Profile Photo Section -->
+  <div class="profile-photo-section">
+    <img src="img/lotta.jpg" alt="Lota Schultz" class="profile-image">
+   
+   <div class="profile-social">
+      <a href="lotta.schultz@uib.no" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://scholar.google.com/citations?user=G_JcgScAAAAJ&hl=de" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
+      <a href="https://orcid.org/0000-0002-1659-0856" target="_blank" rel="noopener" aria-label="ORCID"><i class="bi bi-person-badge"></i></a>
+      <a href="https://www.linkedin.com/in/lotta-schultz-676759213/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www4.uib.no/finn-ansatte/Lotta.Schultz" target="_blank" rel="noopener" aria-label="Website"><i class="bi bi-globe2"></i></a>
+      <a href="https://lottaschultz.wixsite.com/himaldiaries" target="_blank" rel="noopener" aria-label="Website"><i class="bi bi-globe2"></i></a>
+      <a href="https://github.com/lschultz97" target="_blank" rel="noopener" aria-label="Website"><i class="bi bi-globe2"></i></a>
+    </div>
+  </div>
+
+  <!-- Main Content Section -->
+  <div class="profile-content">
+    <!-- Profile Header -->
+    <div class="profile-header">
+      <div class="profile-name">Lotta Schultz</div>
+    </div>
+    
+    <!-- Profile Description -->
+    <div class="profile-description">
+      <p>PhD Candidate in Global Change Ecology affiliated with the <a href="https://w4.uib.no/en/research/research-groups/terrestrial-ecology">Terrestrial Ecology</a> research group and to the <a href="https://mountainsinmotion.w.uib.no/">Mountains in Motion</a> research groups within the Department of Biological Sciences and Bjerknes Centre for Climate Research at the University of Bergen. Lotta Schultz's <strong>research interests</strong> include:</p>
+      
+      <ul class="mb-0">
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+    <!-- Research Projects Section -->
+    <div class="page-header">
+      <h2>Research Projects</h2>
+    </div>
+      
+    <div class="members-background-box">
+      <p><strong></strong></p>
+    </div>
+  </div>
+</div>
+```
+

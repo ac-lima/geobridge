@@ -21,17 +21,17 @@ css: member-styles.scss
     </div>
 
     <div class="member-circle">
-      <a href="augusto.qmd">
-        <img src="img/augusto.jpeg" alt="Augusto Lima" class="member-image">
-      </a>
-      <p>Augusto Lima</p>
-    </div>
-
-    <div class="member-circle">
       <a href="benjamin.qmd">
         <img src="img/benjamin.jpg" alt="Benjamin Robson" class="member-image">
       </a>
       <p>Benjamin Robson</p>
+    </div>
+
+    <div class="member-circle">
+      <a href="augusto.qmd">
+        <img src="img/augusto.jpeg" alt="Augusto Lima" class="member-image">
+      </a>
+      <p>Augusto Lima</p>
     </div>
 
     <div class="member-circle">
@@ -46,6 +46,34 @@ css: member-styles.scss
         <img src="img/peter.jpg" alt="Peter Manning" class="member-image">
       </a>
       <p>Peter Manning</p>
+    </div>
+
+    <div class="member-circle">
+      <a href="eline.qmd">
+        <img src="img/eline.jpg" alt="Eline Rentier" class="member-image">
+      </a>
+      <p>Eline Rentier</p>
+    </div>  
+  
+    <div class="member-circle">
+      <a href="lotta.qmd">
+        <img src="img/lotta.jpg" alt="Lotta Schultz" class="member-image">
+      </a>
+      <p>Lotta Schultz</p>
+    </div> 
+
+    <div class="member-circle">
+      <a href="julien.qmd">
+        <img src="img/julien.jpg" alt="Julien Vadnais" class="member-image">
+      </a>
+      <p>Julien Vadnais</p>
+    </div>
+
+    <div class="member-circle">
+      <a href="yiyao.qmd">
+        <img src="img/yiyao.jpg" alt="Yiyao Chen" class="member-image">
+      </a>
+      <p>Yiyao Chen</p>
     </div>
 
     <div class="member-circle">

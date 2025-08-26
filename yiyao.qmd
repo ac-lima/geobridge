@@ -1,0 +1,59 @@
+---
+format:
+  html:
+    page-layout: full
+    code-fold: true
+    smooth-scroll: true
+    toc: true
+css: profile-styles.scss
+---
+
+<!-- load Bootstrap Icons once (for the social icons) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+```{=html}
+<div class="profile-container">
+  <!-- Profile Photo Section -->
+  <div class="profile-photo-section">
+    <img src="img/yiyao.png" alt="Yiyao Chen" class="profile-image">
+   
+   <div class="profile-social">
+      <a href="yiyao.chen@uib.no" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://www.linkedin.com/in/yiyao-chen-48984519a/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www4.uib.no/en/find-employees/Yiyao.Chen" target="_blank" rel="noopener" aria-label="Website"><i class="bi bi-globe2"></i></a>
+    </div>
+  </div>
+
+  <!-- Main Content Section -->
+  <div class="profile-content">
+    <!-- Profile Header -->
+    <div class="profile-header">
+      <div class="profile-name">Yiyao Chen</div>
+    </div>
+    
+    <!-- Profile Description -->
+    <div class="profile-description">
+      <p>PhD Candidate in Geomatics and Remote Sensing affiliated with the <a href="https://www4.uib.no/en/research/research-groups/quaternary-geology-and-paleoclimate">Quaternary Geology and Paleoclimate</a> research group within the Department of Earth Science and the Bjerknes Centre for Climate Research at the University of Bergen. Danield Thomas' <strong>research interests</strong> include:</p>
+      
+      <ul class="mb-0">
+        <li>Remote sensing and spatial analysis of the cryosphere and extreme weather.</li>
+        <li>Integrating satellite data and machine learning for environmental applications.</li>
+      </ul>
+    </div>
+
+    <!-- Research Projects Section -->
+    <div class="page-header">
+      <h2>Research Projects</h2>
+    </div>
+
+    <div class="members-background-box">
+      <p><strong>Enhancing Snow Property Estimation with GeoAI and High-Resolution Satellite Data (SNOWAI):</strong> Employing time-series data from freely available SAR and optical satellite imagery within a GeoAI framework to predict snowpack properties in Western Norway. It also explores the impacts of snowpack variability on the cryosphere and biosphere.</p>
+    </div>
+
+    <div class="members-background-box">
+      <p><strong>Thunderstorm Nowcasting over Lake Victoria using Deep Learning and Satellite Data:</strong> Adapting overshooting-top detection and CNN/ConvLSTM models to MSG SEVIRI satellite imagery in order to forecast severe thunderstorms over Lake Victoria, aiming to improve early-warning systems for local communities and navigation safety.</p>
+    </div>
+  </div>
+</div>
+```
+

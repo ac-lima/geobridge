@@ -1,0 +1,45 @@
+---
+format: 
+  html:
+    grid:
+      sidebar-width: 250px
+      margin-width: 250px
+      body-width: 800px
+class: home-page
+---
+
+<head>
+  <style>
+    body {
+      background-image: url('img/background.png'); /* Path to your image */
+      background-size: cover; /* Ensure the image covers the whole screen */
+      background-position: center center; /* Center the image */
+      background-attachment: fixed; /* Fix the background when scrolling */
+      color: white; /* Optional: Change text color to contrast with the image */
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
+      z-index: -1; /* Make sure the overlay is behind the text and content */
+    }
+  </style>
+</head>
+
+<div style="text-align: center;">
+  <img src="https://github.com/ac-lima/UiBseminarseries/raw/main/img/proj.png" alt="Project Logo" style="max-width: 50%; height: auto; object-fit: contain;">
+  <p style="margin-top: 1rem; font-size: 1.5em; color: inherit;">
+    UiB collaborative platform for GIS/RS methods in landscape analysis in a changing world
+  </p>
+</div>
+
+<div class="card mb-3 p-3 border rounded shadow-sm text-white"
+  style="background-color: rgba(0, 0, 0, 0.06); border-color: transparent;">
+<p>Join a growing community of researchers and students from diverse academic backgrounds united by a shared interest in Geographic Information Systems (GIS) and Remote Sensing (RS).
+
+Our network currently brings together 55 active members from the University of Bergen (UiB), spanning the Departments of Earth Science, Biology, Geography, Physics, and Archaeology.</p>
+</div>

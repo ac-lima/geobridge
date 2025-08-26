@@ -1,21 +1,19 @@
 ---
-format: 
+format:
   html:
-    grid:
-      sidebar-width: 250px
-      margin-width: 250px
-      body-width: 800px
-class: home-page
+    page-layout: full
+    code-fold: true
+    smooth-scroll: true
+    toc: true
+css: index.scss
 ---
 
+```{=html}
 <head>
   <style>
     body {
       background-image: url('img/background.png'); /* Path to your image */
       background-size: cover; /* Ensure the image covers the whole screen */
-      background-position: center center; /* Center the image */
-      background-attachment: fixed; /* Fix the background when scrolling */
-      color: white; /* Optional: Change text color to contrast with the image */
     }
     body::before {
       content: '';
@@ -24,22 +22,84 @@ class: home-page
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
       z-index: -1; /* Make sure the overlay is behind the text and content */
     }
   </style>
 </head>
 
-<div style="text-align: center;">
-  <img src="https://github.com/ac-lima/UiBseminarseries/raw/main/img/proj.png" alt="Project Logo" style="max-width: 50%; height: auto; object-fit: contain;">
-  <p style="margin-top: 1rem; font-size: 1.5em; color: inherit;">
-    UiB collaborative platform for GIS/RS methods in landscape analysis in a changing world
-  </p>
-</div>
+<section class="header">
+  <div class="container">
+    <div style="text-align: center;">
+      <img src="https://github.com/ac-lima/UiBseminarseries/raw/main/img/proj.png" alt="Project Logo" style="max-width: 28%; height: auto; object-fit: contain;">
+    </div>
+    <p class="tagline">UiB collaborative platform for GIS/RS methods in landscape analysis in a changing world</p>
+  </div>
+</section>
 
-<div class="card mb-3 p-3 border rounded shadow-sm text-white"
-  style="background-color: rgba(0, 0, 0, 0.06); border-color: transparent;">
-<p>Join a growing community of researchers and students from diverse academic backgrounds united by a shared interest in Geographic Information Systems (GIS) and Remote Sensing (RS).
+<section class="grid-section">
+  <div class="container">
+    <div class="stats">
+      <div class="stats-grid">  
+        <div class="stat-item">
+          <h4>15+</h4>
+          <p>Active Members</p>
+        </div>
+        <div class="stat-item">
+          <h4>5+</h4>
+          <p>Departments</p>
+        </div>
+        <div class="stat-item">
+          <h4>2</h4>
+          <p>Faculties</p>
+        </div>
+      </div>
+    </div>
 
-Our network currently brings together 55 active members from the University of Bergen (UiB), spanning the Departments of Earth Science, Biology, Geography, Physics, and Archaeology.</p>
-</div>
+    <!-- Grid of Cards -->
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon">🛰️</div>
+          <h3>Remote Sensing</h3>
+          <p>Advanced remote sensing techniques for landscape monitoring and environmental analysis.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🗺️</div>
+          <h3>GIS Methods</h3>
+          <p>Spatial analysis, mapping, and visualization in landscape research.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🌱</div>
+          <h3>Landscape Analysis</h3>
+          <p>Approaches to understand environmental changes and ecosystem dynamics.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">👥</div>
+          <h3>Collaboration</h3>
+          <p>Interdisciplinary work across Earth Science, Biology, Geography, Physics, and Archaeology.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">📚</div>
+          <h3>Research</h3>
+          <p>Projects on climate change, environmental monitoring, and sustainability.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🎓</div>
+          <h3>Education</h3>
+          <p>Seminars and programs for students and researchers in GIS & RS.</p>
+      </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="cta-section">
+      <h2>Join Our Community</h2>
+      <p>Connect with researchers and students passionate about GIS and remote sensing</p>
+      <a href="https://ac-lima.github.io/geobridge/teammembers.html" class="cta-button">Learn More About Us</a>
+    </div>
+  </div>
+</section>
+```

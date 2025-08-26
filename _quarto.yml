@@ -25,7 +25,7 @@ website:
           - href: openprojects.qmd
             text: Open Projects
           - href: joinus.qmd
-            text: Join Our Team!
+            text: Join the Team!
       - text: Archive
         menu:
           - href: uavworkshop.qmd
@@ -70,6 +70,7 @@ format:
       - styles.scss
       - member-styles.scss
       - profile-styles.scss
+      - index.scss
     toc: false
     code-link: true
     anchor-sections: true

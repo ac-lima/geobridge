@@ -9,26 +9,9 @@ css: index.scss
 ---
 
 ```{=html}
-<head>
-  <style>
-    body {
-      background-image: url('img/background.png'); /* Path to your image */
-      background-size: cover; /* Ensure the image covers the whole screen */
-    }
-    body::before {
-      content: '';
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: -1; /* Make sure the overlay is behind the text and content */
-    }
-  </style>
-</head>
-
 <section class="header">
   <div class="container">
+    <p class= "title">GeoBridge</p>
     <div style="text-align: center;">
       <img src="https://github.com/ac-lima/UiBseminarseries/raw/main/img/proj.png" alt="Project Logo" style="max-width: 28%; height: auto; object-fit: contain;">
     </div>
@@ -49,8 +32,12 @@ css: index.scss
           <p>Departments</p>
         </div>
         <div class="stat-item">
-          <h4>2</h4>
+          <h4>4</h4>
           <p>Faculties</p>
+        </div>
+        <div class="stat-item">
+          <h4>2</h4>
+          <p>Universities</p>
         </div>
       </div>
     </div>

@@ -25,8 +25,8 @@ $green:   #118230 !default;
 $teal:    #068194 !default;
 $cyan:    #3093CF !default;
 
-$primary:   $teal!default;
-$secondary: $gray-700 !default;
+$primary:   $cyan!default;
+$secondary: $white !default;
 $success:   $green !default;
 $info:      $cyan !default;
 $warning:   $orange !default;
@@ -34,10 +34,8 @@ $danger:    $red !default;
 $light:     $gray-400 !default;
 $dark:      $black !default;
 
-
-
 // Links
-$link-color: $primary !default;
+$link-color: $cyan !default;
 $link-decoration: none !default;
 $link-hover-color: $red !default;
 $link-hover-decoration: underline !default;
@@ -51,7 +49,7 @@ $code-bg: $gray-200 !default;
 $code-color: $gray-900 !default;
 
 // TOC
-$toc-color: $orange;
+$toc-color: $orange !default;
 $toc-font-size: 1em;
 
 // Code copy
@@ -60,6 +58,22 @@ $btn-code-copy-color-active: $orange !default;
 
 /*-- scss:rules --*/
 
+.navbar {
+    background: linear-gradient(135deg, #068194, #3093CF) !important;
+    background-color: transparent !important;
+    border: 0;      /* custom bg */
+}
+
+.navbar {
+  --bs-navbar-color: #fff;
+  --bs-navbar-hover-color: #fff;
+  --bs-navbar-active-color: #fff;
+  --bs-navbar-brand-color: #fff;
+  --bs-navbar-brand-hover-color: #fff;
+}
+
+ // Set navfooter size
+
 .nav-footer {
     align-items: flex-start;  // Align all flex items to the top
     flex-wrap: wrap;
@@ -67,18 +81,13 @@ $btn-code-copy-color-active: $orange !default;
     min-height: 1em;
     //font-family: $footer-font-family;
 
-    a {
-        color: $primary;
-    }
-
     .faux-block {
         display: block;
         padding-bottom: 0.4em;
     }
 
-    // In the default Quarto template, .nav-footer-center has position: absolute 
-    // turned on, which makes the div not be a flex item
-    // This changes that so that it *is* a flex item
+
+    // Set navfooter as a flex item
     .nav-footer-center {
         text-align: center;
         position: inherit;
@@ -127,7 +136,7 @@ $btn-code-copy-color-active: $orange !default;
 
 #fixed-copyright {
     font-size: 0.85em;
-    color: $gray-600;
+    color: white;
     font-family: sans-serif;
     opacity: 0.8;
   }

@@ -1,0 +1,66 @@
+---
+format:
+  html:
+    page-layout: full
+    code-fold: true
+    smooth-scroll: true
+    toc: true
+css: about-styles.scss
+---
+
+```{=html}
+<div class="gb-hero">
+    <div class="gb-wrap">
+        <h1>About GeoBridge</h1>
+        <p class="gb-lead">UiB collaborative platform on <strong>Landscape analysis in a changing world</strong> — connecting researchers and students using advanced GIS &amp; RS to study landscape dynamics.</p>
+    </div>
+</div>
+
+<!-- Focus areas -->
+<section class="gb-focus">
+    <div class="gb-pill-grid">
+        <div class="gb-pill">🛰️ Remote Sensing</div>
+        <div class="gb-pill">🗺️ GIS Methods</div>
+        <div class="gb-pill">🏔️ Landscape Analysis</div>
+        <div class="gb-pill">🤝 Collaboration</div>
+        <div class="gb-pill">🔬 Research</div>
+        <div class="gb-pill">🎓 Education</div>
+    </div>
+</section>
+
+<!-- Two-column split -->
+<div class="gb-wrap">
+    <div class="gb-grid">
+        <article class="gb-card gb-pad gb-prose" aria-labelledby="about-title">
+            <h2 id="about-title">Our Vision</h2>
+            <p>Spatio-temporal analyses of landscape dynamics across the biosphere, geosphere, and cryosphere are essential for understanding and mitigating the myriad of current global environmental challenges. Key topics are landscape transformations such as land use and cover changes, glacier retreats, and vegetation shifts due to global warming, among many others.</p>
+            <p>Given the rapid pace of global environmental change, proficiency in Geographic Information Systems (GIS) and remote sensing (RS) is becoming a highly sought-after skillset within and beyond academia. Especially cross-disciplinary knowledge sharing in cutting-edge techniques has high relevance to address environmental challenges.</p>
+            <p>With this community, we aim to establish an UiB collaborative platform on <strong>“Landscape analysis in a changing world”</strong>, connecting researchers and students using advanced GIS and RS techniques to study landscape dynamics. Through this initiative we will strengthen partnerships, foster a network for sharing expertise in cutting-edge methods in landscape analysis, and showcase how interdisciplinary approaches can address global environmental challenges.</p>
+            <h2 id="about-title">Background</h2>
+            <p>This initiative grows from the success of our funded seminar series, <em>Fostering a Cross-Departmental Seminar and Working Group on Geomatics</em>, and prior community-building efforts at University of Bergen (UiB). Our current network includes members from the Departments of Earth Science, Biology, Geography, Physics, and Archaeology, representing 55+ engaged members and three faculties at the UiB. We have also established a strong collaboration with the Theoretical and Computational Ecology group at the University of Amsterdam (UvA).</p>
+            <p>We have been connected researchers who apply geospatial analysis in their work, facilitate knowledge exchange, and support cross-department collaboration. This community has provided a unique opportunity to <strong>engage with an advanced group of researchers and students from interdisciplinary backgrounds</strong> who specialize in using GIS and RS for real-world problem-solving.</p>
+        </article>
+
+        <aside class="gb-card gb-pad gb-aside" aria-label="Quick facts">
+            <h2>Quick facts</h2>
+            <img src="img/proj.png" alt="Project Logo" style="max-width: 100%; height: auto; object-fit: contain; text-align: center;">
+            <div class="gb-stat"><b>55+</b> <span>Active participants</span></div>
+            <div class="gb-stat"><b>5+</b> <span>Departments</span></div>
+            <div class="gb-stat"><b>3</b> <span>Faculties</span></div>
+            <div class="gb-stat"><b>2</b> <span>Universities</span></div>
+
+            <h3>What we focus on</h3>
+            <ul class="gb-list">
+                <li><span class="icon">🛰️</span><span>Remote sensing for environmental monitoring</span></li>
+                <li><span class="icon">🗺️</span><span>GIS methods for spatial analysis &amp; visualization</span></li>
+                <li><span class="icon">🏔️</span><span>Landscape analysis across biosphere, geosphere &amp; cryosphere</span></li>
+                <li><span class="icon">🤝</span><span>Cross-disciplinary collaboration &amp; knowledge sharing</span></li>
+            </ul>
+
+            <div class="gb-cta" role="group" aria-label="Primary actions">
+                <a class="gb-btn primary" href="joinus.html">Join the community</a>
+            </div>
+        </aside>
+    </div>
+</div>
+```

@@ -15,7 +15,7 @@ css: profile-styles.scss
 <div class="profile-container">
   <!-- Profile Photo Section -->
   <div class="profile-photo-section">
-    <img src="img/julien.png" alt="Julien Vadnais" class="profile-image">
+    <img src="img/julien.jpg" alt="Julien Vadnais" class="profile-image">
    
    <div class="profile-social">
       <a href="julien.vadnais@uib.no" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>

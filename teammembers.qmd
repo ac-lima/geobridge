@@ -42,13 +42,6 @@ css: member-styles.scss
     </div>
 
     <div class="member-circle">
-      <a href="peter.qmd">
-        <img src="img/peter.jpg" alt="Peter Manning" class="member-image">
-      </a>
-      <p>Peter Manning</p>
-    </div>
-
-    <div class="member-circle">
       <a href="eline.qmd">
         <img src="img/eline.jpg" alt="Eline Rentier" class="member-image">
       </a>

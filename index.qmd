@@ -5,7 +5,7 @@ format:
     code-fold: true
     smooth-scroll: true
     toc: true
-css: index.scss
+css: index-styles.scss
 ---
 
 ```{=html}
@@ -86,6 +86,7 @@ css: index.scss
       <h2>Join Our Community</h2>
       <p>Connect with researchers and students passionate about GIS and remote sensing</p>
       <a href="https://ac-lima.github.io/geobridge/teammembers.html" class="cta-button">Learn More About Us</a>
+      <a href="https://ac-lima.github.io/geobridge/openprojects.html" class="cta-button">Work With Us</a>
     </div>
   </div>
 </section>

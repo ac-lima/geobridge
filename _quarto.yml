@@ -34,7 +34,7 @@ website:
 # Don't touch unless you know what you are doing :) ------------
   page-footer: 
     left: |
-      <div id="fixed-copyright">© 2025 Augusto Lima & Sjur Barndon</div>
+      <div id="fixed-copyright">© 2025 Augusto Lima</div>
     right: |
       <span class="faux-block">
         <a href="https://www.uva.nl/en">
@@ -70,7 +70,8 @@ format:
       - styles.scss
       - member-styles.scss
       - profile-styles.scss
-      - index.scss
+      - index-styles.scss
+      - about-styles.scss
     toc: false
     code-link: true
     anchor-sections: true

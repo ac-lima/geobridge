@@ -1,0 +1,172 @@
+/* css styles */
+/*-- scss:defaults --*/
+        :root {
+            --gb-ink: #111827;
+            --gb-accent: #2563eb; /* blue */
+            --gb-radius: 16px;
+            --gb-shadow: 0 10px 18px rgba(0,0,0,.06), 0 2px 6px rgba(0,0,0,.04);
+        }
+
+/*-- scss:rules --*/
+        .gb-hero {
+            position:relative;
+            padding:4rem 0 3rem;
+            background:linear-gradient(135deg,#068194, #3093CF);
+            border-radius: var(--gb-radius);
+        }
+        .gb-wrap {
+            max-width:1100px;
+            margin:0 auto;
+            padding:0 1.25rem;
+        }
+
+        /* Headline & lead */
+        .gb-hero h1 {
+            margin:0 0 .5rem;
+            font-size:clamp(1.8rem,3.5vw,2.6rem);
+            letter-spacing:-.01em;
+            color:var(--gb-ink);
+        }
+        .gb-lead {
+            margin:.25rem 0 1.25rem;
+            color:white;
+            font-size:clamp(1rem,2vw,1.1rem);
+        }
+
+        /* Grid */
+        .gb-grid {
+            display:grid;
+            position:relative;
+            grid-template-columns:2fr 1fr;
+            margin: 1.5rem -11rem 0;
+            width: 100%;
+        }
+        @media (max-width: 1240px){
+        .gb-grid{grid-template-columns: 2fr 1fr}
+        }
+
+        /* Cards */
+        .gb-card {
+            background: white;
+            border:1px solid #e5e7eb;
+            border-radius:var(--gb-radius);
+            box-shadow:var(--gb-shadow);
+            margin: 0 auto;
+        }
+        .gb-pad {
+            padding:1.25rem;
+        }
+        .gb-card h2 {
+            margin:.25rem 0 1rem;
+            font-size:1.35rem;
+            padding: 0 .75rem 0;
+        }
+        .gb-card h3 {
+            margin:1.25rem 0 .5rem;
+            font-size:1.05rem;
+            color:white;
+        }
+        .gb-prose p {
+            margin:0 0 1rem;
+            padding: 0 .75rem 0;
+            width: 800px;
+        }
+        .gb-prose strong {
+            color:#0f172a;
+        }
+
+        /* Aside */
+        .gb-aside {
+            position:sticky;
+            width:400px;
+            top:1rem;
+            height:max-content;
+            background:linear-gradient(to top, #068194, #3093CF);
+            color: white;
+            margin: 0 10rem 0;
+        }
+        .gb-stat {
+            display:flex;
+            align-items:baseline;
+            gap:.5rem;
+            border-bottom:1px dashed #e5e7eb;
+            padding:.75rem 0;
+        }
+        .gb-stat:last-child {
+            border-bottom:0
+        }
+        .gb-stat b {
+            font-size:1.4rem;
+            letter-spacing:-.01em
+        }
+        .gb-list {
+            list-style:none;
+            margin:0;
+            padding:0;
+            display:grid;
+            gap:.35rem
+        }
+        .gb-list .icon {
+            font-size:1rem;
+            line-height:1.4
+        }
+
+        /* Buttons */
+        .gb-cta {
+            display:flex;
+            gap:.75rem;
+            flex-wrap:wrap;
+            margin-top:1rem
+        }
+        .gb-btn {
+            appearance:none;
+            border:1px solid transparent;
+            border-radius: var(--gb-radius);
+            padding:.7rem 1rem;
+            font-weight:600;
+            cursor:pointer;
+            text-decoration:none;
+            display:inline-block
+        }
+        .gb-btn.primary {
+            background:var(--gb-accent);
+            color:#fff
+        }
+        .gb-btn:focus {
+            outline:3px solid rgba(37,99,235,.12)
+        }
+
+        /* Focus area pills */
+        .gb-focus {
+            margin:2.5rem 0
+        }
+        .gb-focus h2 {
+            font-size:1.3rem;
+            margin:0 0 1rem
+        }
+        .gb-pill-grid {
+            display:grid;
+            grid-template-columns:repeat(6,1fr);
+            gap:.75rem
+        }
+        @media (max-width: 1000px) {
+            .gb-pill-grid {
+                grid-template-columns:repeat(3,1fr)
+            }
+        }
+        @media (max-width: 640px) {
+            .gb-pill-grid {
+                grid-template-columns:repeat(2,1fr)
+            }
+        }
+        .gb-pill {
+            background:linear-gradient(135deg, #3093CF, transparent);
+            border:1px solid #e5e7eb;
+            border-radius:999px;
+            padding:.7rem 1rem;
+            box-shadow:var(--gb-shadow);
+            display:flex;
+            gap:.5rem;
+            align-items:center;
+            justify-content:center
+        }

@@ -15,7 +15,7 @@ css: profile-styles.scss
 <div class="profile-container">
   <!-- Profile Photo Section -->
   <div class="profile-photo-section">
-    <img src="img/yiyao.png" alt="Yiyao Chen" class="profile-image">
+    <img src="img/yiyao.jpg" alt="Yiyao Chen" class="profile-image">
    
    <div class="profile-social">
       <a href="yiyao.chen@uib.no" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>

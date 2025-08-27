@@ -1040,6 +1040,17 @@ $theme-name: null !default;
 // quarto-scss-analysis-annotation { "origin": "Defaults from user-defined SCSS" }
 
 /* css styles */
+        
+        .ju {
+            --ink:#0f172a;
+            --muted:#6b7280;
+            --accent:#3093CF;
+            --accent2:#068194;
+            --radius:12px;
+            --shadow:0 4px 20px rgba(0, 0, 0, 0.08);;
+        }
+
+/* css styles */
         :root {
             --gb-ink: #111827;
             --gb-accent: #2563eb; /* blue */
@@ -13817,11 +13828,11 @@ main.quarto-banner-title-block > section:first-child > h4 {
         }
 
         /* Headline & lead */
-        .gb-hero h1 {
-            margin:0 0 .5rem;
-            font-size:clamp(1.8rem,3.5vw,2.6rem);
-            letter-spacing:-.01em;
-            color:var(--gb-ink);
+        .gb-hero .title {
+            font-size: 3rem;
+            color: white;
+            font-weight: 500;
+            margin: 0 auto;
         }
         .gb-lead {
             margin:.25rem 0 1.25rem;
@@ -13833,12 +13844,12 @@ main.quarto-banner-title-block > section:first-child > h4 {
         .gb-grid {
             display:grid;
             position:relative;
-            grid-template-columns:2fr, 1fr;
-            gap: clamp(16px, 3vw, 32px);
-            margin: 2rem 0;
+            grid-template-columns:2fr 1fr;
+            margin: 1.5rem -11rem 0;
+            width: 100%;
         }
         @media (max-width: 1240px){
-        .gb-grid{grid-template-columns:1fr}
+        .gb-grid{grid-template-columns: 2fr 1fr};
         }
 
         /* Cards */
@@ -13847,6 +13858,7 @@ main.quarto-banner-title-block > section:first-child > h4 {
             border:1px solid #e5e7eb;
             border-radius:var(--gb-radius);
             box-shadow:var(--gb-shadow);
+            margin: 0 auto;
         }
         .gb-pad {
             padding:1.25rem;
@@ -13854,7 +13866,7 @@ main.quarto-banner-title-block > section:first-child > h4 {
         .gb-card h2 {
             margin:.25rem 0 1rem;
             font-size:1.35rem;
-            padding: 0 2.5rem 0;
+            padding: 0 .75rem 0;
         }
         .gb-card h3 {
             margin:1.25rem 0 .5rem;
@@ -13863,7 +13875,8 @@ main.quarto-banner-title-block > section:first-child > h4 {
         }
         .gb-prose p {
             margin:0 0 1rem;
-            padding: 0 2.5rem 0;
+            padding: 0 .75rem 0;
+            width: 800px;
         }
         .gb-prose strong {
             color:#0f172a;
@@ -13877,6 +13890,7 @@ main.quarto-banner-title-block > section:first-child > h4 {
             height:max-content;
             background:linear-gradient(to top, #068194, #3093CF);
             color: white;
+            margin: 0 10rem 0;
         }
         .gb-stat {
             display:flex;
@@ -13886,22 +13900,22 @@ main.quarto-banner-title-block > section:first-child > h4 {
             padding:.75rem 0;
         }
         .gb-stat:last-child {
-            border-bottom:0
+            border-bottom:0;
         }
         .gb-stat b {
             font-size:1.4rem;
-            letter-spacing:-.01em
+            letter-spacing:-.01em;
         }
         .gb-list {
             list-style:none;
             margin:0;
             padding:0;
             display:grid;
-            gap:.35rem
+            gap:.35rem;
         }
         .gb-list .icon {
             font-size:1rem;
-            line-height:1.4
+            line-height:1.4;
         }
 
         /* Buttons */
@@ -13909,7 +13923,7 @@ main.quarto-banner-title-block > section:first-child > h4 {
             display:flex;
             gap:.75rem;
             flex-wrap:wrap;
-            margin-top:1rem
+            margin-top:1rem;
         }
         .gb-btn {
             appearance:none;
@@ -13919,37 +13933,37 @@ main.quarto-banner-title-block > section:first-child > h4 {
             font-weight:600;
             cursor:pointer;
             text-decoration:none;
-            display:inline-block
+            display:inline-block;
         }
         .gb-btn.primary {
             background:var(--gb-accent);
-            color:#fff
+            color:#fff;
         }
         .gb-btn:focus {
-            outline:3px solid rgba(37,99,235,.12)
+            outline:3px solid rgba(37,99,235,.12);
         }
 
         /* Focus area pills */
         .gb-focus {
-            margin:2.5rem 0
+            margin:2.5rem 0;
         }
         .gb-focus h2 {
             font-size:1.3rem;
-            margin:0 0 1rem
+            margin:0 0 1rem;
         }
         .gb-pill-grid {
             display:grid;
             grid-template-columns:repeat(6,1fr);
-            gap:.75rem
+            gap:.75rem;
         }
         @media (max-width: 1000px) {
             .gb-pill-grid {
-                grid-template-columns:repeat(3,1fr)
+                grid-template-columns:repeat(3,1fr);
             }
         }
         @media (max-width: 640px) {
             .gb-pill-grid {
-                grid-template-columns:repeat(2,1fr)
+                grid-template-columns:repeat(2,1fr);
             }
         }
         .gb-pill {
@@ -13961,8 +13975,113 @@ main.quarto-banner-title-block > section:first-child > h4 {
             display:flex;
             gap:.5rem;
             align-items:center;
-            justify-content:center
+            justify-content:center;
+        }
+        hr {
+            margin: 1em 0;
+            border: none;
         }
 
+        a {
+            color: white;
+        }
+
+        .ju-wrap {
+            max-width:1100px;
+            margin:0 auto;
+        }
+        .ju-wrap .title {
+            font-size: 3rem;
+            color: #0f172a;
+            font-weight: 500;
+            margin: 0 auto;
+        }
+        .ju-lead {
+            margin:.2rem 0 1rem;
+            color:var(--muted);
+            max-width:900px;
+        }
+
+        .ju-grid-cards {
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+            gap:1rem;
+            margin:1.2rem 0;
+        }
+        .ju-card {
+            background:#fff;
+            border:1px solid #e2e8f0;
+            border-radius:var(--radius);
+            box-shadow:var(--shadow);
+            padding:2rem;
+            transition: all 0.3s ease;
+        }
+        .ju-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+        }
+        .ju-card-icon {
+            width: 60px;
+            height:60px;
+            border-radius:12px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            background:linear-gradient(135deg, #068194, #3093CF);
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .ju-banner {
+            margin:1.2rem 0;
+            background:linear-gradient(135deg, #068194, #3093CF);
+            color: white;
+        }
+        .ju-banner-inner {
+            display:flex;
+            gap:.8rem;
+            align-items:center;
+            background:linear-gradient(135deg, #068194, #3093CF);
+            color: white;
+            justify-content:space-between;
+            flex-wrap:wrap;
+            padding:1rem 1.1rem;
+            border-radius:12px;
+            box-shadow:var(--shadow);
+        }
+        .ju-btn {
+            border:1px solid #d1d5db;
+            border-radius:12px;
+            padding:.65rem .95rem;
+            font-weight:700;
+            text-decoration:none;
+            background: white;
+            color:#0f172a;
+        }
+        .ju-btn.p {
+            background:linear-gradient(135deg, #068194, #3093CF);
+            color:#0f172a;
+            border-color:transparent;
+        }
+
+        .ju-faq details {
+            border-top:1px dashed #e5e7eb;
+            padding:.7rem 0;
+        }
+        .ju-faq details:first-of-type {
+            border-top:none;
+        }
+        .ju-faq summary {
+            cursor:pointer;
+            font-weight:600;
+            color:#1e293b;
+        }
+        .ju-faq p {
+            margin:.5rem 0 0;
+            color:#475569;
+        }
+        a {
+            color: #3093CF ;
+        }
 
 // quarto-scss-analysis-annotation { "origin": null }

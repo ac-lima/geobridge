@@ -1,0 +1,78 @@
+---
+format:
+  html:
+    page-layout: full
+    code-fold: true
+    smooth-scroll: true
+    toc: true
+css: joinmss-styles.scss
+---
+
+```{=html}
+<div class="ju-wrap">
+  <p class= "title">Join the Monthly Seminar Series</p>
+  <p class="ju-lead">Connect with an interdisciplinary GIS &amp; RS community — share methods, projects, and ideas.</p>
+
+  <div class="ju-cards ju-grid-cards">
+    <article class="ju-card ju-pad">
+      <div class="ju-card-icon">🎓</div>
+      <h3>Students</h3>
+      <p>Present class projects, thesis results, or methods you’re exploring.</p>
+    </article>
+    <article class="ju-card ju-pad">
+      <div class="ju-card-icon">🔬</div>
+      <h3>Researchers</h3>
+      <p>Share analyses, pipelines, and best practices in landscape modelling and applied geospatial analysis.</p>
+    </article>
+    <article class="ju-card ju-pad">
+       <div class="ju-card-icon">🏢</div>
+      <h3>Partners</h3>
+      <p>Showcase applications of GIS/RS to real-world problems.</p>
+    </article>
+  </div>
+
+  <div class="ju-banner ju-card">
+    <div class="ju-banner-inner">
+      <div>
+        <strong>Ready to join?</strong><br/>
+        Subscribe for updates or propose a talk — we’ll get back to you quickly.
+      </div>
+      <div class="ju-banner-actions">
+       <a class="ju-btn ghost" href="https://forms.office.com/pages/responsepage.aspx?id=vCSKZI2pJUCcYEjBmhQgaRDLeEr1KmNIhe_T6TpcoFxUQzJDRUM4OEFSQkdXQlpTS1BOTE9CQ1gwVi4u&origin=lprLink&route=shorturl">Join mailing list</a>
+      <a class="ju-btn ghost" href="https://forms.office.com/pages/responsepage.aspx?id=vCSKZI2pJUCcYEjBmhQgaRDLeEr1KmNIhe_T6TpcoFxUQkhGQkxFMlNOWVRZSjNTNVJaTVk5R1lFWC4u&route=shorturl">Propose a talk</a>
+      <a class="ju-btn ghost" href="https://universityofbergen-my.sharepoint.com/:x:/g/personal/augusto_naschimento_uib_no/EXfj5JpJs6dAgqwwaEASl3wBUR--hPrwcHlqLp0ppNDDrQ?e=YmdMrA">See schedule</a>
+      <a class="ju-btn ghost" href="https://universityofbergen-my.sharepoint.com/:p:/g/personal/augusto_naschimento_uib_no/EYWphSekdnNPiXNOFh5HByMBi7LIw82K4bqjqSoKeCOUZQ?e=ZaShqm">Guidelines</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="ju-faq ju-card ju-pad">
+    <h2>FAQ</h2>
+    <details>
+      <summary>Who can join?</summary>
+      <p>Anyone interested is welcome to join, whether you are an experienced researcher or just starting with GIS/RS. Presenters will alternate between the University of Bergen (UiB) and the University of Amsterdam (UvA), however if you have a very cool topic GIS or RS, please sent us a request <a href="https://forms.office.com/pages/responsepage.aspx?id=vCSKZI2pJUCcYEjBmhQgaRDLeEr1KmNIhe_T6TpcoFxUQkhGQkxFMlNOWVRZSjNTNVJaTVk5R1lFWC4u&route=shorturl">here</a> or <a href="mailto:augusto.naschimento@uib.no">contact us</a> directly.</p>
+    </details>
+
+    <details>
+      <summary>How often are seminars?</summary>
+      <p>The seminar series will take place monthly. Speakers will alternate between the University of Bergen (UiB) and the University of Amsterdam (UvA). Each session will last 50–60 minutes and will feature either two 20-minute presentations or one 40-minute presentation, with time reserved for questions.</p>
+      <p>For more information regarding the monthly seminar series's schedule look at our <a href="https://universityofbergen-my.sharepoint.com/:x:/g/personal/augusto_naschimento_uib_no/EXfj5JpJs6dAgqwwaEASl3wBUR--hPrwcHlqLp0ppNDDrQ?e=YmdMrA">timetable</a> or <a href="mailto:augusto.naschimento@uib.no">contact us</a>.</p>
+    </details>
+
+    <details>
+      <summary>What topics fit?</summary>
+      <p>We welcome any GIS- or remote sensing-related work applied to landscape change, from methods to real-world applications. Our audience is interdisciplinary, so please be tailor for a broad understanding. If you are unsure how to adapt for a general audience, please consult <a href="https://universityofbergen-my.sharepoint.com/:x:/g/personal/augusto_naschimento_uib_no/EXfj5JpJs6dAgqwwaEASl3wBUR--hPrwcHlqLp0ppNDDrQ?e=YmdMrA">Guidelines for Presenting to a Broad Audience</a>.</p>
+    </details>
+
+    <details>
+      <summary>Why to attend?</summary>
+      <p>Connect with researchers and students from a wide range of disciplines worldwide. Gain practical insights into how GIS/RS can be applied to real-world environmental challenges. Engage in cross-disciplinary knowledge sharing and explore cutting-edge methods and applications. Empower change in a rapidly evolving world.</p>
+    </details>
+
+    <details>
+      <summary>Are sessions recorded?</summary>
+      <p>Presenters may choose wether their session in recorded. If consent is given, the recording will be available on our <a href="https://www.youtube.com/channel/UCZt7a3ArKzdqt1-BB9TX8bg">YouTube Channel</a></p>
+    </details>
+  </div>
+</div>
+```

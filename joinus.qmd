@@ -1,0 +1,45 @@
+---
+format:
+  html:
+    page-layout: full
+    code-fold: true
+    smooth-scroll: true
+    toc: true
+css: joinmss-styles.scss
+---
+
+```{=html}
+<div class="ju-wrap">
+  <p class= "title">Join us at UiB x UvA!</p>
+
+  <div class="ju-cards ju-grid-cards">
+    <article class="ju-card ju-pad">
+      <div class="ju-card-icon">🔬</div>
+      <h3>Postdoctoral and PhD Researchers</h3>
+      <p>We do not directly offer postdoctoral or PhD research positions. However, please reach <a href="teammembers.html">our netwrok of researchers</a> if you are interested in developing a collaborative grant proposal together, writing a fellowship application or propose a research stay to join us either at UiB or UaV.</p>
+    </article>
+    <article class="ju-card ju-pad">
+      <div class="ju-card-icon">🎓</div>
+      <h3>Master's Students</h3>
+      <p>We welcome master students from UvA and UiB to develop master projects in between institutions. Choose a project from our <a href="openprojects.html">project list</a> and message the designed supervisor to talk about your interests and the link of yout master's project o their research project.</p>
+    </article>
+    <article class="ju-card ju-pad">
+       <div class="ju-card-icon">🏢</div>
+      <h3>Eramus+ Internships</h3>
+      <p>We are happy to receive international students in between UiB and UvA through the Erasmus+ Programs. Choose a project from our <a href="openprojects.html">project list</a> and message the designed supervisor to talk about your interests and your future involvement in their research project.</p>
+    </article>
+  </div>
+
+  <div class="ju-banner ju-card">
+    <div class="ju-banner-inner">
+      <div>
+        <strong>Any Questions?</strong><br/>
+        Send your enquire to us — we’ll get back to you quickly.
+      </div>
+      <div class="ju-banner-actions">
+        <a class="ju-btn ghost" href="mailto:augusto.naschimento@uib.no">Send us an e-mail</a>
+      </div>
+    </div>
+  </div>
+</div>
+```

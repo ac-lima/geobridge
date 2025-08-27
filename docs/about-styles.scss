@@ -21,11 +21,11 @@
         }
 
         /* Headline & lead */
-        .gb-hero h1 {
-            margin:0 0 .5rem;
-            font-size:clamp(1.8rem,3.5vw,2.6rem);
-            letter-spacing:-.01em;
-            color:var(--gb-ink);
+        .gb-hero .title {
+            font-size: 3rem;
+            color: white;
+            font-weight: 500;
+            margin: 0 auto;
         }
         .gb-lead {
             margin:.25rem 0 1.25rem;
@@ -42,7 +42,7 @@
             width: 100%;
         }
         @media (max-width: 1240px){
-        .gb-grid{grid-template-columns: 2fr 1fr}
+        .gb-grid{grid-template-columns: 2fr 1fr};
         }
 
         /* Cards */
@@ -93,22 +93,22 @@
             padding:.75rem 0;
         }
         .gb-stat:last-child {
-            border-bottom:0
+            border-bottom:0;
         }
         .gb-stat b {
             font-size:1.4rem;
-            letter-spacing:-.01em
+            letter-spacing:-.01em;
         }
         .gb-list {
             list-style:none;
             margin:0;
             padding:0;
             display:grid;
-            gap:.35rem
+            gap:.35rem;
         }
         .gb-list .icon {
             font-size:1rem;
-            line-height:1.4
+            line-height:1.4;
         }
 
         /* Buttons */
@@ -116,7 +116,7 @@
             display:flex;
             gap:.75rem;
             flex-wrap:wrap;
-            margin-top:1rem
+            margin-top:1rem;
         }
         .gb-btn {
             appearance:none;
@@ -126,37 +126,37 @@
             font-weight:600;
             cursor:pointer;
             text-decoration:none;
-            display:inline-block
+            display:inline-block;
         }
         .gb-btn.primary {
             background:var(--gb-accent);
-            color:#fff
+            color:#fff;
         }
         .gb-btn:focus {
-            outline:3px solid rgba(37,99,235,.12)
+            outline:3px solid rgba(37,99,235,.12);
         }
 
         /* Focus area pills */
         .gb-focus {
-            margin:2.5rem 0
+            margin:2.5rem 0;
         }
         .gb-focus h2 {
             font-size:1.3rem;
-            margin:0 0 1rem
+            margin:0 0 1rem;
         }
         .gb-pill-grid {
             display:grid;
             grid-template-columns:repeat(6,1fr);
-            gap:.75rem
+            gap:.75rem;
         }
         @media (max-width: 1000px) {
             .gb-pill-grid {
-                grid-template-columns:repeat(3,1fr)
+                grid-template-columns:repeat(3,1fr);
             }
         }
         @media (max-width: 640px) {
             .gb-pill-grid {
-                grid-template-columns:repeat(2,1fr)
+                grid-template-columns:repeat(2,1fr);
             }
         }
         .gb-pill {
@@ -168,5 +168,13 @@
             display:flex;
             gap:.5rem;
             align-items:center;
-            justify-content:center
+            justify-content:center;
+        }
+        hr {
+            margin: 1em 0;
+            border: none;
+        }
+
+        a {
+            color: white;
         }

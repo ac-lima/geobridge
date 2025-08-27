@@ -16,8 +16,12 @@ website:
     left:
       - href: about.qmd
         text: About
-      - href: mss_seminars.qmd
-        text: Monthly Seminar Series
+      - text: Monthly Seminar Series
+        menu:
+          - href: seminars.qmd
+            text: About the MSS
+          - href: joinmss.qmd
+            text: Join the MSS
       - text: Team & Projects
         menu:
           - href: teammembers.qmd
@@ -72,6 +76,7 @@ format:
       - profile-styles.scss
       - index-styles.scss
       - about-styles.scss
+      - joinmss-styles.scss
     toc: false
     code-link: true
     anchor-sections: true

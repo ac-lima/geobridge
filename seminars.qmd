@@ -1,0 +1,63 @@
+---
+format:
+  html:
+    page-layout: full
+    code-fold: true
+    smooth-scroll: true
+    toc: true
+css: about-styles.scss
+---
+
+```{=html}
+<div style="text-align: center;">
+  <img src="img/firstimg.png" alt="Seminar series visual" style="max-width: 100%; height: auto; object-fit: contain;" />
+   <p style="margin-top: 1rem; font-size: 1.2em; color: inherit;">
+      A unique opportunity to engage with researchers and students from interdisciplinary backgrounds.
+  </p>
+</div>
+
+<div class="gb-wrap">
+    <div class="gb-grid">
+        <article class="gb-card gb-pad gb-prose" aria-labelledby="about-title">
+            <h2 id="about-title">Scope</h2>
+            <p>Through a monthly seminar series, researchers and students will have the opportunity to present and discuss their applications of GIS and RS in addressing environmental challenges. The seminars will target speakers who apply these methods to real-world problems, while also engaging researchers interested in exploring broader applications and potential innovations in the field.</p>
+            
+            <h2 id="about-title">Proposed Activities</h2>
+            <ul class="mb-0">
+                <li>Host monthly seminars at UiB, leveraging a video-enabled seminar room to allow UvA researchers & students, and global audience to join virtually.</li>
+                <hr>
+                <li>Presentations will alternate between UiB and UvA participants, ensuring a continuous exchange of ideas.</li>
+                <hr>
+                <li>The seminars will be open to all and will encourage presenters to tailor their content for an interdisciplinary audience, focusing on landscape dynamics and spatio-temporal analyses</li>
+                <hr>
+                <li>We will create a portfolio of master’s project case studies using a standardized template to facilitate knowledge sharing, inspire new research ideas, and assist UiB faculty in proposing future projects for master’s students.</li>
+            </ul>
+        </article>
+
+        <aside class="gb-card gb-pad gb-aside" aria-label="Quick facts">
+            <h2>Important Links</h2>
+            <div class="gb-stat"><a href="https://forms.office.com/pages/responsepage.aspx?id=vCSKZI2pJUCcYEjBmhQgaRDLeEr1KmNIhe_T6TpcoFxUQzJDRUM4OEFSQkdXQlpTS1BOTE9CQ1gwVi4u&origin=lprLink&route=shorturl">Audience registrantion</a></div>
+            <div class="gb-stat"><a href="https://forms.office.com/pages/responsepage.aspx?id=vCSKZI2pJUCcYEjBmhQgaRDLeEr1KmNIhe_T6TpcoFxUQkhGQkxFMlNOWVRZSjNTNVJaTVk5R1lFWC4u&route=shorturl">Sign up as a speaker</a></div>
+            <div class="gb-stat"><a href="https://universityofbergen-my.sharepoint.com/:x:/g/personal/augusto_naschimento_uib_no/EXfj5JpJs6dAgqwwaEASl3wBUR--hPrwcHlqLp0ppNDDrQ?e=YmdMrA">Sessions schedule</a></div>
+            <div class="gb-stat"><a href="https://universityofbergen-my.sharepoint.com/:p:/g/personal/augusto_naschimento_uib_no/EYWphSekdnNPiXNOFh5HByMBi7LIw82K4bqjqSoKeCOUZQ?e=ZaShqm">Guidelines for presentations</a></div>
+            <div class="gb-stat"><a href="joinmss.html#faq">FAQ</a></div>
+            <div class="gb-stat"><a href="https://www.youtube.com/channel/UCZt7a3ArKzdqt1-BB9TX8bg">Recorded sessions</a></div>
+            <hr>
+            <ul class="gb-list">
+                <li><span class="icon">🖥️</span><span> Online format</span></li>
+                <li><span class="icon">📅</span><span>October 2025 to June 2026</span></li>
+                <li><span class="icon">🌍</span><span>Global Audience and Atendees</span></li>
+                <li><span class="icon">🤝</span><span>Interdisciplinary collaboration &amp; knowledge sharing</span></li>
+            </ul>
+
+            <div class="gb-cta" role="group" aria-label="Primary actions">
+                <a class="gb-btn primary" href="joinmss.html">Join the MSS!</a>
+            </div>
+        </aside>
+    </div>
+</div>
+<hr>
+<div style="text-align: center;">
+  <img src="img/img4.png" alt="Be Inspired" style="max-width: 100%; height: auto; object-fit: contain;" />
+</div>
+```

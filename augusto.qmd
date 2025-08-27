@@ -60,6 +60,14 @@ css: profile-styles.scss
     <div class="members-background-box">
       <p><strong>GEOBRIDGE - UiB collaborative platform for GIS/RS methods in landscape analysis in a changing world:</strong> Seminar series and other academic events related to GIS and RS, and landscape dynamics across the biosphere, geosphere, and cryosphere. Students from diverse academic background can united to tackle today's global environmental challenges and dive into essential tools for research and real-world problem-solving.</p>
     </div>
+
+    <div class="members-background-box">
+      <p><strong>The Role of Ice Cliffs in the Mass Loss of a Debris-Covered Glacier in the Semiarid Andes:</strong> Exploring how supraglacial ponds and ice cliffs influence the melting patterns of Tapado Glacier in the semiarid Andes of Chile. Such features, found on the debris-covered surface of the glacier, play a crucial role in how the glacier loses mass. Using a mix of historical aerial imagery, satellite data, and drone-based surveys, we aim to build an inventory of supraglacial lakes and ice-cliffs from 1956 to 2023. The goal is to understand their distribution, how they form, and how they accelerate ice melt and influence the glacier mass balance dynamics.</p>
+    </div>
+
+    <div class="members-background-box">
+      <p><strong>Urban Heat Islands, a comparison of air and land surface temperature in São Paulo:</strong> Through remore sensing analysis, we investigated the influence of urbanization patterns and seasonality in the temperature of the city of São Paulo. Comparing the relationship between land surface temperature and ai temperature, we identified urban heat and freshness islands, and quantified variation patterns between different urban mosaics and rural areas.</p>
+    </div>
   </div>
 </div>
 ```

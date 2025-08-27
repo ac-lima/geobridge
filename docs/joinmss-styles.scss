@@ -1,0 +1,111 @@
+/* css styles */
+/*-- scss:defaults --*/
+        
+        .ju {
+            --ink:#0f172a;
+            --muted:#6b7280;
+            --accent:#3093CF;
+            --accent2:#068194;
+            --radius:12px;
+            --shadow:0 4px 20px rgba(0, 0, 0, 0.08);;
+        }
+
+/*-- scss:rules --*/
+
+        .ju-wrap {
+            max-width:1100px;
+            margin:0 auto;
+        }
+        .ju-wrap .title {
+            font-size: 3rem;
+            color: #0f172a;
+            font-weight: 500;
+            margin: 0 auto;
+        }
+        .ju-lead {
+            margin:.2rem 0 1rem;
+            color:var(--muted);
+            max-width:900px;
+        }
+
+        .ju-grid-cards {
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+            gap:1rem;
+            margin:1.2rem 0;
+        }
+        .ju-card {
+            background:#fff;
+            border:1px solid #e2e8f0;
+            border-radius:var(--radius);
+            box-shadow:var(--shadow);
+            padding:2rem;
+            transition: all 0.3s ease;
+        }
+        .ju-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+        }
+        .ju-card-icon {
+            width: 60px;
+            height:60px;
+            border-radius:12px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            background:linear-gradient(135deg, #068194, #3093CF);
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .ju-banner {
+            margin:1.2rem 0;
+            background:linear-gradient(135deg, #068194, #3093CF);
+            color: white;
+        }
+        .ju-banner-inner {
+            display:flex;
+            gap:.8rem;
+            align-items:center;
+            background:linear-gradient(135deg, #068194, #3093CF);
+            color: white;
+            justify-content:space-between;
+            flex-wrap:wrap;
+            padding:1rem 1.1rem;
+            border-radius:12px;
+            box-shadow:var(--shadow);
+        }
+        .ju-btn {
+            border:1px solid #d1d5db;
+            border-radius:12px;
+            padding:.65rem .95rem;
+            font-weight:700;
+            text-decoration:none;
+            background: white;
+            color:#0f172a;
+        }
+        .ju-btn.p {
+            background:linear-gradient(135deg, #068194, #3093CF);
+            color:#0f172a;
+            border-color:transparent;
+        }
+
+        .ju-faq details {
+            border-top:1px dashed #e5e7eb;
+            padding:.7rem 0;
+        }
+        .ju-faq details:first-of-type {
+            border-top:none;
+        }
+        .ju-faq summary {
+            cursor:pointer;
+            font-weight:600;
+            color:#1e293b;
+        }
+        .ju-faq p {
+            margin:.5rem 0 0;
+            color:#475569;
+        }
+        a {
+            color: #3093CF ;
+        }

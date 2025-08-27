@@ -11,7 +11,7 @@ css: about-styles.scss
 ```{=html}
 <div class="gb-hero">
     <div class="gb-wrap">
-        <h1>About GeoBridge</h1>
+        <p class= "title">About GeoBridge</p>
         <p class="gb-lead">UiB collaborative platform on <strong>Landscape analysis in a changing world</strong> — connecting researchers and students using advanced GIS &amp; RS to study landscape dynamics.</p>
     </div>
 </div>

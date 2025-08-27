@@ -50,11 +50,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
+<link rel="stylesheet" href="index-styles.scss">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -119,20 +121,55 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
+<section class="grid-section">
+    <!-- Grid of Cards -->
+    <div class="grid">
+      <div class="card">
+        <img src="img/ppfalpine.png" alt="PPF-Alpine Logo" style="max-width: 28%; height: auto; object-fit: contain;">
+        <h3 class="anchored"><a href="https://mountainsinmotion.w.uib.no/research/">PPF-Alpine</a></h3>
+        <p>Elucidating the Quaternary history (last 2.6 million years) of alpine biomes, based on the notion that their dynamic past may hold key insights for their future resilience.</p>
+        <p><strong>Supervisor:</strong> <a href="suzette.html">Dr. Suzette Flantua</a></p>
+      </div>
+
+      <div class="card">
+        <img src="img/glacimontis.PNG" alt="Glacimontis Logo" style="max-width: 28%; height: auto; object-fit: contain;">
+        <h3 class="anchored"><a href="https://mountainsinmotion.w.uib.no/research/">GLACIMONTIS</a></h3>
+        <p>Understanding the extent of mountain glaciers during past cold periods, with a focus on the Last Glacial Maximum (~21,000 years ago) and the last glacial cycle (the last 130,000 years)</p>
+        <p><strong>Supervisor:</strong> <a href="suzette.html">Dr. Suzette Flantua</a></p>
+      </div>
+
+      <div class="card">
+        <img src="img/connectevolve.jpg" alt="CONNECT-EVOLVE Logo" style="max-width: 28%; height: auto; object-fit: contain;">
+        <h3 class="anchored"><a href="https://mountainsinmotion.w.uib.no/research/">CONNECT-EVOLVE</a></h3>
+        <p>Invenstigating how past climate change and landscape connectivity have shaped the extraordinary present-day biodiversity in the Páramos, a unique high-altitude ecosystem in the northern Andes.</p>
+        <p><strong>Supervisor:</strong> <a href="suzette.html">Dr. Suzette Flantua</a></p>
+      </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="cta-section">
+      <h2 class="anchored">Work With Us</h2>
+      <p>Connect with supervisors and investigators to define where, how and when to contribute to the open projects.</p>
+      <a href="teammembers.html" class="cta-button">Find Your Supervisor</a>
+    </div>
+  </section></main></div>
 
 
 
-</main> <!-- /main -->
+
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -532,7 +569,7 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-</div> <!-- /content -->
+ <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
@@ -552,4 +589,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

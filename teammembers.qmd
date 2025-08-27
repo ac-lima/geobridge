@@ -75,6 +75,13 @@ css: member-styles.scss
       </a>
       <p>Nina Hećej</p>
     </div>
+
+    <div class="member-circle">
+      <a href="hanif.qmd">
+        <img src="img/hanif.jpeg" alt="Hanif Kawousi" class="member-image">
+      </a>
+      <p>Hanif Kawousi</p>
+    </div>
   </div>
 </div>
 ```

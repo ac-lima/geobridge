@@ -1,0 +1,45 @@
+---
+format:
+  html:
+    page-layout: full
+    code-fold: true
+    smooth-scroll: true
+    toc: true
+css: index-styles.scss
+---
+
+```{=html}
+<section class="grid-section">
+    <!-- Grid of Cards -->
+    <div class="grid">
+      <div class="card">
+        <img src="img/ppfalpine.png" alt="PPF-Alpine Logo" style="max-width: 28%; height: auto; object-fit: contain;">
+        <h3><a href="https://mountainsinmotion.w.uib.no/research/">PPF-Alpine</a></h3>
+        <p>Elucidating the Quaternary history (last 2.6 million years) of alpine biomes, based on the notion that their dynamic past may hold key insights for their future resilience.</p>
+        <p><strong>Supervisor:</strong> <a href="suzette.html">Dr. Suzette Flantua</a></p>
+      </div>
+
+      <div class="card">
+        <img src="img/glacimontis.PNG" alt="Glacimontis Logo" style="max-width: 28%; height: auto; object-fit: contain;">
+        <h3><a href="https://mountainsinmotion.w.uib.no/research/">GLACIMONTIS</a></h3>
+        <p>Understanding the extent of mountain glaciers during past cold periods, with a focus on the Last Glacial Maximum (~21,000 years ago) and the last glacial cycle (the last 130,000 years)</p>
+        <p><strong>Supervisor:</strong> <a href="suzette.html">Dr. Suzette Flantua</a></p>
+      </div>
+
+      <div class="card">
+        <img src="img/connectevolve.jpg" alt="CONNECT-EVOLVE Logo" style="max-width: 28%; height: auto; object-fit: contain;">
+        <h3><a href="https://mountainsinmotion.w.uib.no/research/">CONNECT-EVOLVE</a></h3>
+        <p>Invenstigating how past climate change and landscape connectivity have shaped the extraordinary present-day biodiversity in the Páramos, a unique high-altitude ecosystem in the northern Andes.</p>
+        <p><strong>Supervisor:</strong> <a href="suzette.html">Dr. Suzette Flantua</a></p>
+      </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="cta-section">
+      <h2>Work With Us</h2>
+      <p>Connect with supervisors and investigators to define where, how and when to contribute to the open projects.</p>
+      <a href="teammembers.html" class="cta-button">Find Your Supervisor</a>
+    </div>
+  </div>
+</section>
+```

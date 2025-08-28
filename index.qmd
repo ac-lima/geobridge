@@ -24,11 +24,11 @@ css: index-styles.scss
     <div class="stats">
       <div class="stats-grid">  
         <div class="stat-item">
-          <h4>15+</h4>
-          <p>Active Members</p>
+          <h4>55+</h4>
+          <p>Community Members</p>
         </div>
         <div class="stat-item">
-          <h4>5+</h4>
+          <h4>6</h4>
           <p>Departments</p>
         </div>
         <div class="stat-item">

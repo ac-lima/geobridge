@@ -36,6 +36,7 @@ css: about-styles.scss
 
         <aside class="gb-card gb-pad gb-aside" aria-label="Quick facts">
             <h2>Important Links</h2>
+            <div class="gb-cta" role="group" aria-label="Primary actions">
             <div class="gb-stat"><a href="https://forms.office.com/pages/responsepage.aspx?id=vCSKZI2pJUCcYEjBmhQgaRDLeEr1KmNIhe_T6TpcoFxUQzJDRUM4OEFSQkdXQlpTS1BOTE9CQ1gwVi4u&origin=lprLink&route=shorturl">Audience registrantion</a></div>
             <div class="gb-stat"><a href="https://forms.office.com/pages/responsepage.aspx?id=vCSKZI2pJUCcYEjBmhQgaRDLeEr1KmNIhe_T6TpcoFxUQkhGQkxFMlNOWVRZSjNTNVJaTVk5R1lFWC4u&route=shorturl">Sign up as a speaker</a></div>
             <div class="gb-stat"><a href="https://universityofbergen-my.sharepoint.com/:x:/g/personal/augusto_naschimento_uib_no/EXfj5JpJs6dAgqwwaEASl3wBUR--hPrwcHlqLp0ppNDDrQ?e=YmdMrA">Sessions schedule</a></div>

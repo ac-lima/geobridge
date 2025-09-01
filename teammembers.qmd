@@ -42,6 +42,13 @@ css: member-styles.scss
     </div>
 
     <div class="member-circle">
+      <a href="gidske.qmd">
+        <img src="img/gidske.jpg" alt="Gidske Andersen" class="member-image">
+      </a>
+      <p>Gidske Andersen</p>
+    </div>
+
+    <div class="member-circle">
       <a href="eline.qmd">
         <img src="img/eline.jpg" alt="Eline Rentier" class="member-image">
       </a>

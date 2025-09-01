@@ -32,6 +32,36 @@ css: index-styles.scss
         <p>Invenstigating how past climate change and landscape connectivity have shaped the extraordinary present-day biodiversity in the Páramos, a unique high-altitude ecosystem in the northern Andes.</p>
         <p><strong>Supervisor:</strong> <a href="suzette.html">Dr. Suzette Flantua</a></p>
       </div>
+
+      <div class="card">
+        <h3><a href="https://www.uib.no/en/geo/178890/monitoring-snowline-dynamics-norwegian-glaciers-using-sentinel-1-and-sentinel-2-data">Monitoring Snowline Dynamics on Norwegian Glaciers Using Sentinel-1 and Sentinel-2 Data</a></h3>
+        <p>Snowlines on glaciers are critical indicators of climatic conditions and glacier health. Sentinel-1 and Sentinel-2 satellite data provide high-resolution, frequent observations suitable for monitoring snowline dynamics. Building upon the work of Winsvold et al. (2018) and the Copernicus Glacier Service (Andreassen et al., 2021), this project aims to analyse snowline changes and melt events across Norwegian glaciers.</p>
+        <p><strong>Supervisor:</strong> <a href="benjamin.html">Dr. Benjamin Robson</a></p>
+      </div>
+      
+      <div class="card">
+        <h3><a href="https://www.uib.no/en/geo/178889/changes-surface-characteristics-glaciers-jotunheimen">Changes in Surface Characteristics of Glaciers in Jotunheimen</a></h3>
+        <p>Glaciers such as Storbreen, Hellstugubreen, and Gråsubreen in the Jotunheimen region exhibit dynamic surface features, including crevasse patterns and supraglacial drainage channels. High-resolution orthophotos from 1997, 2009, and 2019, along with laser scanning data from 2009 and 2019, offer an opportunity to study temporal changes in these features.</p>
+        <p><strong>Supervisor:</strong> <a href="benjamin.html">Dr. Benjamin Robson</a></p>
+      </div>
+
+      <div class="card">
+        <h3><a href="https://www.uib.no/en/geo/178888/reconstructing-glacier-change-gr%C3%A5subreen-and-gr%C3%A5susnippen-jotunheimen">Reconstructing Glacier Change at Gråsubreen and Gråsusnippen, Jotunheimen</a></h3>
+        <p>Digitise and analyse historical aerial photographs and satellite imagery to reconstruct past glacier extents.Integrate and compare datasets from 1997, 2009, and 2019 to assess changes in surface elevation and extent.Conduct a drone survey in autumn 2025 or 2026 to generate a new high-resolution digital surface model.Analyse the influence of wind transport on snow distribution and its implications for glacier mass balance.</p>
+        <p><strong>Supervisor:</strong> <a href="benjamin.html">Dr. Benjamin Robson</a></p>
+      </div>
+
+      <div class="card">
+        <h3><a href="https://www.uib.no/en/geo/171340/mapping-winter-melt-events-folgefonna-glacier-radar-remote-sensing">Mapping winter melt events at Folgefonna glacier with radar remote sensing</a></h3>
+        <p>This project aims to utilize time series radar remote sensing data to map surface melt events at Folgefonna glacier throughout the winter season, quantifying spatial and temporal trends in the snowpack. The analysis will focus on how backscatter varies over a season, relating these changes to surface conditions. This approach allows for detailed monitoring of melt events and their impact on the glacier's surface and firn layer.</p>
+        <p><strong>Supervisor:</strong> <a href="benjamin.html">Dr. Benjamin Robson</a></p>
+      </div>
+
+      <div class="card">
+        <h3><a href="https://www.uib.no/en/geo/163196/decadal-changes-mass-folgefonna-glacier">Decadal changes in mass at Folgefonna glacier</a></h3>
+        <p>This project will involve analysing historical aerial photography collected over Folgefonna glacier since the mid-20th century. The student will use photogrammetry and topographic analysis in order to generate digital elevation models (DEMs) for roughly each decade. These DEMs will then be intercompared in-order to derive volume changes and geodetic mass balances of the entire Folgefonna ice cap. Such changes are interesting from both a climate point of view, but also a hydropower point of view.</p>
+        <p><strong>Supervisor:</strong> <a href="benjamin.html">Dr. Benjamin Robson</a></p>
+      </div>
     </div>
 
     <!-- Call to Action -->
